@@ -1,0 +1,100 @@
+import pandas as pd
+import numpy as np
+
+#to drop the 0 values in lignin column
+# df_restructured = df_restructured[df_restructured[' (wt %)'] != 0]
+
+# Drop the 'Trimer' column
+# df_restructured = df_restructured.drop('Trimer', axis=1)
+
+# Drop rows where 'HDI' is NaN
+# df_restructured = df_restructured.dropna(subset=['HDI'])
+
+# Drop the 'Trimer' column
+# df_restructured = df_restructured.drop('HDI', axis=1)
+
+# Drop rows where 'Trimer' is NaN
+# df_restructured = df_restructured.dropna(subset=['Trimer'])
+
+# Assuming df_restructured is already loaded
+# Select the columns you want to plot
+columns_to_plot = ['Lignin (wt%)', 'Isocyanate type', 'Co-polyol type (PTHF)', 'Tg (°C)', 'Swelling ratio (%)', 'Ratio']
+# Function to convert to numeric, replacing non-numeric values with NaN
+def to_numeric_with_nan(x):
+    return pd.to_numeric(x, errors='coerce')
+# Convert all columns to numeric
+df_numeric = df2[columns_to_plot].apply(to_numeric_with_nan)
+# Create a dictionary to map Copolyol values to their corresponding names
+copolyol_map = {650: '650', 1000: '1000', 250: '250' }
+# Apply the mapping to the Copolyol column
+df_numeric['Co-polyol type (PTHF)'] = df_numeric['Co-polyol type (PTHF)'].map(copolyol_map)
+# Set the style
+sns.set_style("whitegrid")
+# Define custom color palette
+custom_palette = {'250': '#FDE725FF', '650': 'purple', '1000': '#2A788EFF'}
+
+# Define hue order to control the order in the legend
+hue_order = ['250', '650', '1000']
+
+# Create the first jointplot: HDI vs Copolyol
+g1 = sns.jointplot(
+    data=df_numeric,
+    x='Swelling ratio (%)',
+    y='Tg (°C)',
+    kind='scatter',
+    height=8,
+    ratio=7,
+    space=0.2,
+    color='#118ce8',
+    marginal_kws=dict(bins=25, fill=True)
+)
+# Normalize HDI for marker sizing
+size_norm = plt.Normalize(df_numeric['Ratio'].min(), df_numeric['Ratio'].max())
+sizes = 20 + 180 * size_norm(df_numeric['Ratio'])
+
+# Customize the plot
+sns.scatterplot(
+    data=df_numeric,
+    x='Swelling ratio (%)',
+    y='Tg (°C)',
+    hue='Co-polyol type (PTHF)',
+    hue_order=hue_order,  # Specify the hue order here
+    size='Ratio',  # Use HDI for marker size
+    sizes=(20, 100),  # Range of marker sizes
+    palette=custom_palette,
+    ax=g1.ax_joint,
+    alpha=0.7
+)
+g1.plot_joint(sns.kdeplot, levels=5, color="r", zorder=0, alpha=0.5)
+# Set updated labels and title
+g1.set_axis_labels('Swelling ratio (%)', 'Glass transition temperature (°C)', fontsize=18)
+# Adjust the style of the plot
+g1.ax_joint.collections[0].set_alpha(0.5)
+g1.ax_joint.set_facecolor('#F5F5F5')
+# Add a text box with additional information
+stats = f"Correlation: {df_numeric['Swelling ratio (%)'].corr(df_numeric['Tg (°C)']):.2f}"
+g1.ax_joint.text(0.05, 0.95, stats, transform=g1.ax_joint.transAxes, 
+                verticalalignment='top', fontsize=14, 
+                bbox=dict(boxstyle='round', facecolor='white', alpha=0.7))
+# Adjust tick mark font size
+g1.ax_joint.tick_params(axis='both', which='major', labelsize=14)
+# Add the legend
+# g1.ax_joint.legend(title='Copolyol', title_fontsize='13', fontsize='10', loc='upper right')
+
+# Add the legend outside the plot
+plt.legend(loc=1, fontsize='12',  ncol=1, frameon=True)
+
+plt.tight_layout()
+
+
+# Save figures in various formats
+formats = ['png', 'tiff', 'svg']
+# formats = [ 'tiff']
+for fmt in formats:
+    plt.savefig(f'10_Relationship between Swelling Ratio and Glass Transition Temperature_no_trimer.{fmt}', 
+                dpi=600 if fmt in ['png', 'tiff'] else None, 
+                bbox_inches='tight')
+    
+plt.show()
+
+    
