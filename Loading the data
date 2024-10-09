@@ -1,0 +1,114 @@
+import pandas as pd
+import chardet
+import numpy as np 
+
+def read_csv_with_detected_encoding(file_path):
+    # Function to detect encoding of the file
+    def detect_encoding(file_path):
+        with open(file_path, 'rb') as f:
+            rawdata = f.read(10000)
+        detection = chardet.detect(rawdata)
+        return detection['encoding']
+
+    # Detect encoding
+    encoding = detect_encoding(file_path)
+    print('Detected encoding:', encoding)
+
+    # Open CSV file with detected encoding
+    df = pd.read_csv(file_path, encoding=encoding)
+    return df
+
+
+
+def data_restructure(df):
+    # Rename the columns header with the first row
+    new_header = df.iloc[1]
+    df = df[2:]  # Take the data less the header row
+    df.columns = new_header
+    
+    # Column of the DMA - Tg has multiple value types, split the values and put into different columns.
+    pattern_1 = r'(-?\d+\.\d+)\s*(?:\((\w*)\))?\s*\[(-?\d+\.\d+)\]'
+    df[['Tg (?C)_1', 'Tg (?C)_2', 'Tg (?C)_3']] = df['Tg (?C)'].str.extract(pattern_1)
+
+    pattern_2 = r'(-?\d+\.\d+)\s*\[(-?\d+\.\d+)\]'
+    df[['tan? height_1', 'tan? height_2']] = df['tan? height'].str.extract(pattern_2)
+
+    # Drop unnecessary columns
+    df = df.drop(['Tg (?C)', 'Tg (?C)_2', 'tan? height'], axis=1)
+
+    # Reorder the columns
+    column_order = ['Sample Name', ' (wt %)', 'HDI', 'Trimer', 'Copolyol', 'Tg observed',
+                     'Tg or Tm(?C)', '?Cp (J/g·°C)', 'Tg (?C)_1', 'Tg (?C)_3', 've (mmol/cm3)', 'Mc (Kg/mol)',
+                     'tan? height_1', 'tan? height_2', 'UTS (Mpa)', '?k (%)', 'E (Mpa)', 'T5% (?C)', 'Tmax (?C)',
+                     'Residu (%)', 'Sratio (%)', 'Soluble Fraction (%)']
+
+    df = df[column_order]
+
+    # Replace all instances of "-" with NaN
+    df.replace("-", np.nan, inplace=True)
+
+    return df
+
+
+from sklearn.preprocessing import LabelEncoder
+
+
+def encode_categorical_features(df, columns_to_encode):
+    le = LabelEncoder()
+
+    for column in columns_to_encode:
+        if column in df.columns:
+            df[column] = le.fit_transform(df[column])
+
+    return df
+
+def map_categorical_column(df, column, mapping_dict):
+    if column in df.columns:
+        df[column] = df[column].map(mapping_dict)
+    
+    return df
+
+def fill_na_with_zero(df):
+    return df.fillna(0)
+
+#Scaling using the Robust Scaler 
+from sklearn.preprocessing import RobustScaler #This scaler is good when a mix of numeric features, categorical features, and possibly other types are present
+
+
+def scale_columns_with_robust_scaler(df, columns_to_scale, columns_not_to_scale):
+    # Copy the DataFrame to avoid modifying the original
+    df_scaled = df.copy()
+
+    # Extract the columns to scale
+    data_to_scale = df_scaled[columns_to_scale]
+
+    # Apply RobustScaler to the specified columns
+    scaler = RobustScaler()
+    scaled_data = scaler.fit_transform(data_to_scale)
+
+    # Replace the original values with the scaled values
+    df_scaled[columns_to_scale] = scaled_data
+
+    return df_scaled
+
+
+
+
+#reading the dataset
+file_path = 'C:/Users/P70090917/Desktop/Polyuerthane Lignin/digiLignin Data/dataset 2/Processed_1.csv' 
+
+df = read_csv_with_detected_encoding(file_path)
+
+df = fill_na_with_zero(df)
+
+mapping_dict = {'N3600': 1, 'HDI': 0, 0: np.nan}
+df_encoded = map_categorical_column(df, 'Isocyanate type', mapping_dict)
+df_encoded = fill_na_with_zero(df_encoded)
+
+
+columns_to_scale = ['Lignin (wt%)', 'Co-polyol (wt%)',
+       'Co-polyol type (PTHF)', 'Isocyanate (wt%)', 'Isocyanate (mmol NCO)',
+       'Isocyanate type', 'Ratio', 'Tin(II) octoate', 'Tg (°C)', 'Swelling ratio (%)'] 
+columns_not_to_scale = ['Sample Name']
+
+df_scaled = scale_columns_with_robust_scaler(df_encoded, columns_to_scale, columns_not_to_scale)
