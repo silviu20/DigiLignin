@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory Structure Viewer</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f3f4f6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            padding: 24px;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            margin-bottom: 20px;
+        }
+
+        .title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+        }
+
+        .timestamp {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 16px;
+        }
+
+        .directory-panel, .description-panel {
+            background: #f9fafb;
+            padding: 16px;
+            border-radius: 6px;
+            border: 1px solid #e5e7eb;
+        }
+
+        .directory-item {
+            margin: 2px 0;
+            user-select: none;
+        }
+
+        .item-content {
+            display: flex;
+            align-items: center;
+            padding: 4px 8px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .item-content:hover {
+            background: #f3f4f6;
+        }
+
+        .item-content.selected {
+            background: #e6f2ff;
+        }
+
+        .chevron, .icon {
+            width: 16px;
+            height: 16px;
+            margin-right: 8px;
+        }
+
+        .folder-icon {
+            color: #3b82f6;
+        }
+
+        .file-icon {
+            color: #6b7280;
+        }
+
+        .info-icon {
+            width: 14px;
+            height: 14px;
+            margin-left: 8px;
+            color: #60a5fa;
+        }
+
+        .description-title {
+            font-weight: 500;
+            margin-bottom: 12px;
+        }
+
+        .description-content {
+            font-size: 0.875rem;
+            color: #374151;
+        }
+
+        .no-description {
+            font-size: 0.875rem;
+            color: #6b7280;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="title">Directory Structure</div>
+            <div class="timestamp">Generated on: <span id="timestamp"></span></div>
+        </div>
+        <div class="grid">
+            <div class="directory-panel" id="directory-tree"></div>
+            <div class="description-panel">
+                <div class="description-title">Description</div>
+                <div id="description-content" class="description-content">
+                    Select a file or folder to view its description.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const directoryData = {
+            name: "Code",
+            type: "directory",
+            children: [
+                {
+                    name: "1.Loading and Preprocessing",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Loading and preprocessing.py",
+                            type: "file",
+                            description: "This code is used to load the dataset and preprocess it. It includes file encoding detection, read csv file, restructuring the dataframe using regex, encoding categorical features, and applying Robust scaling"
+                        }
+                    ]
+                },
+                {
+                    name: "2.Correlation",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Correlation plot.py",
+                            type: "file",
+                            description: "This code builds the Heat map as seen in Figure 3 of the manuscript draft."
+                        }
+                    ]
+                },
+                {
+                    name: "3.Partial dependence plots",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Code_R_Sr and Tg1.py",
+                            type: "file"
+                        },
+                        { 
+                            name: "Code_R_Sr and Tg_Co-polyol and Ratio.py",
+                            type: "file",
+                            description: "These two code scripts are used to generate the partial dependence plots as seen in Figure 4 of the manuscript draft."
+                        },
+                        {
+                            name: "Merging partial dependece plots.py",
+                            type: "file",
+                            description: "Once the partial dependence plots have been generated, the merger is done using this code as seen in Figure 4 of the manuscript draft."
+                        }
+                    ]
+                },
+                {
+                    name: "3.PCA",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Data Analysis_PCA.py",
+                            type: "file",
+                            description: "This code is used to run the Principal Component Analysis"
+                        },
+                        { 
+                            name: "Cumulative variance of the PCs1.py",
+                            type: "file",
+                            description: "The cumulative PC's calculation and plotting as seen in Figure S 2 of the manuscript draft"
+                        },
+                        { 
+                            name: "PCA plot.py",
+                            type: "file",
+                            description: "This is the code to generate the PCA plot as seen in Figure 5 of the manuscript draft."
+                        }
+                    ]
+                },
+                {
+                    name: "4.Wrapper",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Testing_feature_combinations.py",
+                            type: "file",
+                            description: "As part of the feature selection method using the wrapper, this code runs through the mandatory and optional features and generates the results when fitting the datasets through the ML framework."
+                        },
+                        { 
+                            name: "Plot_feat_comb_MAE.py",
+                            type: "file",
+                            description: "This plot generates the Figures S 3 to S 10 as seen in the manuscript draft. It requires to load the results dataset: stacking_results_all_combinations_all_models.csv - ensure to set the path to this dataset accordingly."
+                        }
+                    ]
+                },
+                {
+                    name: "5.Model",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Stacked Ensembles.py",
+                            type: "file",
+                            description: "This is the ML framework as depicted in Figure 2 of the manuscript draft. Input is required to change the number of estimators based on the analysis of the wrapper_results; estimator_counts = [1000] - replace 1000 with the value showing the best performance."
+                        }
+                    ]
+                },
+                {
+                    name: "6.Model metrics",
+                    type: "directory",
+                    children: [
+                        { name: "Plotting the non_estimator performances.py", type: "file" },
+                        { name: "Stacked_ensemble_performance_with comments.py", type: "file" },
+                        { name: "scatter plot predicted_vs_actual.py", type: "file" }
+                    ],
+                    description: "Codes used to plot the metrics of the model analysis"
+                },
+                {
+                    name: "7.Mapping",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Mapping.py",
+                            type: "file",
+                            description: "This code is responsible for mapping the selected model. Grid search can be modified, based on the number of values given and ranges, the mapping can take a considerable wall time to run (days)."
+                        },
+                        { 
+                            name: "Density plot for mapping data.py",
+                            type: "file",
+                            description: "This is the code used to generate the Kernel Density Estimation plots. Depending on the size of the mapping data, KDE calculation can also take a long time (few hours). Figure 8 is what this generates."
+                        },
+                        { 
+                            name: "Distribution of Predicted Tg Values_mapped_results.py",
+                            type: "file",
+                            description: "This code generates the plot as seen in Figure S 15"
+                        },
+                        { 
+                            name: "Merging and labelling plots.py",
+                            type: "file",
+                            description: "Code to bring all the plots into one, as seen in Figure 8."
+                        }
+                    ]
+                },
+                {
+                    name: "8.Extrapolation",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Adaptive_grid_search_with_linginWT_restrictions.py",
+                            type: "file",
+                            description: "This code is used to generate the data for the parallel plots. It used the Adaptive grid search method. Restrictions are implemented to control the amount of lignin, where Lignin + Co-polyol must equal 100%"
+                        },
+                        { 
+                            name: "Extrapolation of the closes_inputs_plot_v2_2.py",
+                            type: "file",
+                            description: "This is the code used to create Figure 9"
+                        }
+                    ]
+                },
+                {
+                    name: "9.Parallel coordinates plot",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Parallel Coordinates Plot.py",
+                            type: "file",
+                            description: "This code is used to generate the user interface, saves it as a html and opens in the preferred browser."
+                        }
+                    ]
+                },
+                {
+                    name: "10.Dataset Distribution based on swelling ratio",
+                    type: "directory",
+                    children: [
+                        { 
+                            name: "Distribution of swelling ratio_basedonHDI.py",
+                            type: "file",
+                            description: "This code is used for the analysis of the distribution as seen in Figure S 1"
+                        }
+                    ]
+                }
+            ]
+        };
+
+        let selectedItem = null;
+        const openFolders = new Set();
+
+        function createIcon(type) {
+            const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+            svg.setAttribute("viewBox", "0 0 24 24");
+            svg.setAttribute("width", "16");
+            svg.setAttribute("height", "16");
+            svg.setAttribute("fill", "none");
+            svg.setAttribute("stroke", "currentColor");
+            svg.setAttribute("stroke-width", "2");
+            svg.setAttribute("stroke-linecap", "round");
+            svg.setAttribute("stroke-linejoin", "round");
+
+            const path = document.createElementNS("http://www.w3.org/2000/svg", "path");
+            
+            switch(type) {
+                case 'folder':
+                    path.setAttribute("d", "M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z");
+                    svg.classList.add('folder-icon');
+                    break;
+                case 'file':
+                    path.setAttribute("d", "M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z");
+                    svg.classList.add('file-icon');
+                    break;
+                case 'chevron-right':
+                    path.setAttribute("d", "M9 18l6-6-6-6");
+                    break;
+                case 'chevron-down':
+                    path.setAttribute("d", "M6 9l6 6 6-6");
+                    break;
+                case 'info':
+                    path.setAttribute("d", "M12 16v-4M12 8h.01");
+                    const circle = document.createElementNS("http://www.w3.org/2000/svg", "circle");
+                    circle.setAttribute("cx", "12");
+                    circle.setAttribute("cy", "12");
+                    circle.setAttribute("r", "10");
+                    svg.appendChild(circle);
+                    svg.classList.add('info-icon');
+                    break;
+            }
+            
+            svg.appendChild(path);
+            return svg;
+        }
+
+        function renderDirectoryItem(item, level = 0) {
+            const itemDiv = document.createElement('div');
+            itemDiv.className = 'directory-item';
+            
+            const content = document.createElement('div');
+            content.className = 'item-content';
+            content.style.paddingLeft = `${level * 20}px`;
+            
+            if (selectedItem === item) {
+                content.classList.add('selected');
+            }
+
+            const hasChildren = item.children && item.children.length > 0;
+            
+            if (hasChildren) {
+                const chevron = createIcon(openFolders.has(item) ? 'chevron-down' : 'chevron-right');
+                chevron.classList.add('chevron');
+                content.appendChild(chevron);
+            } else {
+                const spacer = document.createElement('span');
+                spacer.style.width = '16px';
+                spacer.style.marginRight = '8px';
+                content.appendChild(spacer);
+            }
+
+            const icon = createIcon(item.type === 'directory' ? 'folder' : 'file');
+            content.appendChild(icon);
+
+            const name = document.createElement('span');
+            name.textContent = item.name;
+            content.appendChild(name);
+
+            if (item.description) {
+                const infoIcon = createIcon('info');
+                content.appendChild(infoIcon);
+            }
+
+            content.addEventListener('click', () => {
+                if (hasChildren) {
+                    if (openFolders.has(item)) {
+                        openFolders.delete(item);
+                    } else {
+                        openFolders.add(item);
+                    }
+                }
+                
+                if (selectedItem !== item) {
+                    selectedItem = item;
+                    updateDescription(item);
+                }
+                
+                renderDirectory();
+            });
+
+            itemDiv.appendChild(content);
+
+            if (hasChildren && openFolders.has(item)) {
+                const childrenDiv = document.createElement('div');
+                item.children.forEach(child => {
+                    childrenDiv.appendChild(renderDirectoryItem(child, level + 1));
+                });
+                itemDiv.appendChild(childrenDiv);
+            }
+
+            return itemDiv;
+        }
+
+        function updateDescription(item) {
+            const descriptionContent = document.getElementById('description-content');
+            if (item) {
+                if (item.description) {
+                    descriptionContent.innerHTML = `
+                        <div class="font-medium mb-2">${item.name}</div>
+                        <div>${item.description}</div>
+                    `;
+                } else {
+                    descriptionContent.innerHTML = `
+                        <div class="font-medium mb-2">${item.name}</div>
+                        <div class="no-description">No description available.</div>
+                    `;
+                }
+            } else {
+                descriptionContent.textContent = 'Select a file or folder to view its description.';
+            }
+        }
+
+        function renderDirectory() {
+            const tree = document.getElementById('directory-tree');
+            tree.innerHTML = '';
+            tree.appendChild(renderDirectoryItem(directoryData));
+        }
+
+        // Initialize timestamp
+        document.getElementById('timestamp').textContent = new Date().toLocaleString();
+
+        // Initialize directory tree
+        openFolders.add(directoryData); // Open root folder by default
+        renderDirectory();
+    </script>
+</body>
+</html>
