@@ -256,7 +256,7 @@ def run_meta_model_with_tuning(x, y, best_base_models, cv_splits):
         'Train MAE CI Lower': train_mae_ci_lower,
         'Train MAE CI Upper': train_mae_ci_upper
     }
-return stacking_result, meta_model
+    return stacking_result, meta_model
 
 def run_multiple_times(x, y, num_runs=3):
     """Run the entire process multiple times."""
