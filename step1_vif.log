@@ -1,0 +1,64 @@
+Traceback (most recent call last):
+  File "<string>", line 36, in <module>
+    recommendations = recommend_feature_reduction(vif_df, threshold=10)
+  File "C:\Users\sacaru\digilignin\DigiLignin\5.Model\VIF_Analysis_Multicollinearity.py", line 158, in recommend_feature_reduction
+    print(f"\n2. MODERATE multicollinearity (5 < VIF \u2264 {threshold}): CONSIDER REMOVING")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sacaru\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2264' in position 41: character maps to <undefined>
+Data loaded: 136 samples
+
+================================================================================
+VARIANCE INFLATION FACTOR (VIF) ANALYSIS
+================================================================================
+
+Calculating VIF for features:
+  - Lignin (wt%)
+  - Co-polyol (wt%)
+  - Co-polyol type (PTHF)
+  - Isocyanate (wt%)
+  - Isocyanate (mmol NCO)
+  - Isocyanate type
+  - Ratio
+  - Tin(II) octoate
+
+  Lignin (wt%):
+    VIF = 1061.28 [WARNING] HIGH multicollinearity - REMOVE
+
+  Co-polyol (wt%):
+    VIF = 1333.76 [WARNING] HIGH multicollinearity - REMOVE
+
+  Co-polyol type (PTHF):
+    VIF = 2.69 [OK] Low multicollinearity - KEEP
+
+  Isocyanate (wt%):
+    VIF = 882.01 [WARNING] HIGH multicollinearity - REMOVE
+
+  Isocyanate (mmol NCO):
+    VIF = 14.66 [WARNING] HIGH multicollinearity - REMOVE
+
+  Isocyanate type:
+    VIF = 27.22 [WARNING] HIGH multicollinearity - REMOVE
+
+  Ratio:
+    VIF = 29.80 [WARNING] HIGH multicollinearity - REMOVE
+
+  Tin(II) octoate:
+    VIF = 16.33 [WARNING] HIGH multicollinearity - REMOVE
+
+[OK] VIF plot saved
+
+================================================================================
+FEATURE REDUCTION RECOMMENDATIONS
+================================================================================
+
+1. HIGH multicollinearity (VIF > 10): MUST REMOVE
+   [X] Co-polyol (wt%) (VIF = 1333.76)
+   [X] Lignin (wt%) (VIF = 1061.28)
+   [X] Isocyanate (wt%) (VIF = 882.01)
+   [X] Ratio (VIF = 29.80)
+   [X] Isocyanate type (VIF = 27.22)
+   [X] Tin(II) octoate (VIF = 16.33)
+   [X] Isocyanate (mmol NCO) (VIF = 14.66)
