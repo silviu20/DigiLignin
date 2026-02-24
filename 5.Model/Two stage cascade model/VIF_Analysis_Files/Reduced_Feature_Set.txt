@@ -1,9 +1,0 @@
-REDUCED FEATURE SET (VIF < 10)
-==================================================
-
-Lignin (wt%)
-Isocyanate (wt%)
-Isocyanate type
-Tin(II) octoate
-Isocyanate (mmol NCO)
-Co-polyol type (PTHF)

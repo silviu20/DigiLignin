@@ -1,0 +1,11 @@
+Rank,Test_R2,Test_MSE,Test_MAE,n_estimators,Features,Number_of_Features
+1,0.6700294224379253,246.6605680807725,10.183303180192445,1000,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+2,0.669913333283677,246.7473473837833,10.20215520677814,800,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+3,0.6695858413743565,246.9921550905542,10.204453268271322,900,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+4,0.6711486379602525,245.82392883074695,10.213044992405692,500,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+5,0.6695742640014626,247.00080944209063,10.215491243990709,700,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+6,0.6730378958570942,244.41166526007032,10.222758555729436,400,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+7,0.6703308056731325,246.4352772061877,10.230586432907783,600,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
+8,0.6896261898520992,232.0115353741592,10.439305282695278,400,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyanate (wt%), Isocyonate type",6
+9,0.699156009950771,224.88777647234105,10.456734736832807,300,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyanate (wt%), Isocyonate type",6
+10,0.6807840392607907,238.62124556111556,10.54458378389469,200,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type",5
