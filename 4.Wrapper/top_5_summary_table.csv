@@ -1,6 +1,0 @@
-Rank,Features,Num Features,MAE (°C),R²,Base Models,Meta Model,Gap (°C)
-1,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Srat...",5,15.498,0.353,5,Ridge Regression (Meta-model),0.114
-2,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isoc...",7,15.552,0.364,5,Ridge Regression (Meta-model),-0.275
-3,"Lignin (wt%), Co-polyol type (PTHF), r, tin(II) octoate, Sra...",5,15.589,0.372,5,Ridge Regression (Meta-model),-0.487
-4,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isoc...",6,15.590,0.350,5,Ridge Regression (Meta-model),0.241
-5,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), tin(...",6,15.601,0.349,5,Ridge Regression (Meta-model),-0.050

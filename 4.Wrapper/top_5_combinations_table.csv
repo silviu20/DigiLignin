@@ -1,6 +1,0 @@
-Rank,Features Used,Number of Features,MAE Validation (°C),MSE Validation,R² Validation,MAE Train (°C),MSE Train,R² Train,Number of Estimators,Generalization Gap (°C)
-1,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Sratio(%)",5,15.498,458.239,0.353,15.384,422.941,0.423,1000,0.114
-2,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyanate (wt%), tin(II) octoate, Sratio(%)",7,15.552,449.948,0.364,15.827,438.619,0.401,1000,-0.275
-3,"Lignin (wt%), Co-polyol type (PTHF), r, tin(II) octoate, Sratio(%)",5,15.589,445.251,0.372,16.076,447.892,0.389,1000,-0.487
-4,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type, Sratio(%)",6,15.590,462.263,0.350,15.349,424.919,0.420,1000,0.241
-5,"Lignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), tin(II) octoate, Sratio(%)",6,15.601,460.590,0.349,15.651,433.411,0.408,1000,-0.050
