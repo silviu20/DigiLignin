@@ -41,10 +41,10 @@ ENV/
 .DS_Store
 Thumbs.db
 
-# Data files that might be too large
-*.csv
-*.xlsx
-*.xls
-*.pdf
-*.docx
-*.pptx
+# Data files that might be too large - comment out to include all
+# *.csv
+# *.xlsx
+# *.xls
+# *.pdf
+# *.docx
+# *.pptx
