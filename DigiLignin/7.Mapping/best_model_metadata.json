@@ -1,0 +1,24 @@
+{
+    "n_estimators": 10,
+    "features": [
+        "Lignin (wt%)",
+        "Co-polyol type (PTHF)",
+        "r",
+        "Copolyol (wt%)",
+        "Isocyanate (wt%)"
+    ],
+    "num_features": 5,
+    "train_r2": 0.946776085132112,
+    "train_mse": 38.4408681047027,
+    "train_mae": 3.9398793826153056,
+    "val_r2": 0.4646690633955498,
+    "val_mse": 414.6342725887438,
+    "val_mae": 14.323969183928476,
+    "test_r2": 0.5646439979809669,
+    "test_mse": 325.4385877940501,
+    "test_mae": 15.058065501023428,
+    "train_size": 104,
+    "val_size": 16,
+    "test_size": 16,
+    "random_seed": 42
+}

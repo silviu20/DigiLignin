@@ -1,5 +1,8 @@
-# Large files and directories
-DigiLignin/
+# Large files and specific directories
+DigiLignin/venv/
+DigiLignin/.git/
+DigiLignin/**/*.joblib
+DigiLignin/**/*.pyd
 
 # Python
 __pycache__/

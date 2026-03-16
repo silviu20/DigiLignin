@@ -1,0 +1,31 @@
+# Large data files
+*.csv
+*.xlsx
+*.xls
+
+# Model files
+*.pkl
+*.joblib
+*.h5
+*.model
+
+# Image files (optional - remove if you want to track these)
+*.jpg
+*.jpeg
+*.png
+*.pdf
+*.svg
+*.tiff
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# IDE files
+.vscode/
+.idea/
