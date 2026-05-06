@@ -1,0 +1,1981 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xml>
+  <records>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            van Tilborg, Derek
+          </author>
+          <author>
+            Brinkmann, Helena
+          </author>
+          <author>
+            Criscuolo, Emanuele
+          </author>
+          <author>
+            Rossen, Luke
+          </author>
+          <author>
+            Özçelik, Rıza
+          </author>
+          <author>
+            Grisoni, Francesca
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Deep learning for low-data drug discovery: Hurdles and opportunities</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>6</date>
+          </pub-dates>
+      </dates>
+      <volume>86</volume>
+      <accession-num>38669740</accession-num>
+      <electronic-resource-num>10.1016&#x2F;j.sbi.2024.102818</electronic-resource-num>
+      <abstract>Deep learning is becoming increasingly relevant in drug discovery, from de novo design to protein structure prediction and synthesis planning. However, it is often challenged by the small data regimes typical of certain drug discovery tasks. In such scenarios, deep learning approaches–which are notoriously ‘data-hungry’–might fail to live up to their promise. Developing novel approaches to leverage the power of deep learning in low-data scenarios is sparking great attention, and future developments are expected to propel the field further. This mini-review provides an overview of recent low-data-learning approaches in drug discovery, analyzing their hurdles and advantages. Finally, we venture to provide a forecast of future research directions in low-data learning for drug discovery.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Current Opinion in Structural Biology</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Jang, Huiwon
+          </author>
+          <author>
+            Ryu, Dayoung
+          </author>
+          <author>
+            Lee, Wonseok
+          </author>
+          <author>
+            Park, Geunyeong
+          </author>
+          <author>
+            Kim, Jihan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Machine learning-based epoxy resin property prediction</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+      </dates>
+      <electronic-resource-num>10.1039&#x2F;d4me00060a</electronic-resource-num>
+      <abstract>Epoxy resins have been utilized across various industries due to their superior mechanical and chemical properties. However, discovering the optimal design of epoxy resins is challenging because of the large chemical space of polymer systems. In this study, we adopted a data-driven approach to develop an effective prediction system for epoxy resin. In particular, we constructed a database of 789 epoxy resins, encompassing four key properties: density, coefficient of thermal expansion, glass transition temperature, and Young&#39;s modulus, obtained through molecular dynamics simulations. We devised descriptors that effectively represent epoxy resins. Ultimately, a machine learning model was trained, successfully predicting properties with reasonable accuracy. Our predictive model is a generalized model that was verified across various types of epoxy resins, making it applicable to all kinds of epoxy and hardener combinations. This achievement enables large-scale screening over numerous polymers, accelerating the discovery process. Further, we conducted an in-depth analysis of the important features that have a high impact on the epoxy resin. This provides valuable insights into the structure-property relationship which can guide researchers in designing new epoxy resins.</abstract>
+      <publisher>Royal Society of Chemistry</publisher>
+      <periodical><full-title>Molecular Systems Design and Engineering</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Hong, Xin
+          </author>
+          <author>
+            Yang, Qi
+          </author>
+          <author>
+            Liao, Kuangbiao
+          </author>
+          <author>
+            Pei, Jianfeng
+          </author>
+          <author>
+            Chen, Mao
+          </author>
+          <author>
+            Mo, Fanyang
+          </author>
+          <author>
+            Lu, Hua
+          </author>
+          <author>
+            Zhang, Wen Bin
+          </author>
+          <author>
+            Zhou, Haisen
+          </author>
+          <author>
+            Chen, Jiaxiao
+          </author>
+          <author>
+            Su, Lebin
+          </author>
+          <author>
+            Zhang, Shuo Qing
+          </author>
+          <author>
+            Liu, Siyuan
+          </author>
+          <author>
+            Huang, Xu
+          </author>
+          <author>
+            Sun, Yi Zhou
+          </author>
+          <author>
+            Wang, Yuxiang
+          </author>
+          <author>
+            Zhang, Zexi
+          </author>
+          <author>
+            Yu, Zhunzhun
+          </author>
+          <author>
+            Luo, Sanzhong
+          </author>
+          <author>
+            Fu, Xue Feng
+          </author>
+          <author>
+            You, Shu Li
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>AI for organic and polymer synthesis</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <electronic-resource-num>10.1007&#x2F;s11426-024-2072-4</electronic-resource-num>
+      <abstract>Recent years have witnessed the transformative impact from the integration of artificial intelligence with organic and polymer synthesis. This synergy offers innovative and intelligent solutions to a range of classic problems in synthetic chemistry. These exciting advancements include the prediction of molecular property, multi-step retrosynthetic pathway planning, elucidation of the structure-performance relationship of single-step transformation, establishment of the quantitative linkage between polymer structures and their functions, design and optimization of polymerization process, prediction of the structure and sequence of biological macromolecules, as well as automated and intelligent synthesis platforms. Chemists can now explore synthetic chemistry with unprecedented precision and efficiency, creating novel reactions, catalysts, and polymer materials under the data-driven paradigm. Despite these thrilling developments, the field of artificial intelligence (AI) synthetic chemistry is still in its infancy, facing challenges and limitations in terms of data openness, model interpretability, as well as software and hardware support. This review aims to provide an overview of the current progress, key challenges, and future development suggestions in the interdisciplinary field between AI and synthetic chemistry. It is hoped that this overview will offer readers a comprehensive understanding of this emerging field, inspiring and promoting further scientific research and development.</abstract>
+      <publisher>Science China Press</publisher>
+      <periodical><full-title>Science China Chemistry</full-title></periodical>
+      <keywords>
+        <keyword>automated synthesis</keyword>
+        <keyword>chemical database</keyword>
+        <keyword>machine learning prediction</keyword>
+        <keyword>organic synthesis</keyword>
+        <keyword>polymer synthesis</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Babbar, Agrim
+          </author>
+          <author>
+            Ragunathan, Sriram
+          </author>
+          <author>
+            Mitra, Debirupa
+          </author>
+          <author>
+            Dutta, Arnab
+          </author>
+          <author>
+            Patra, Tarak K.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Explainability and extrapolation of machine learning models for predicting the glass transition temperature of polymers</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>3</date>
+          </pub-dates>
+      </dates>
+      <volume>62</volume>
+      <pages>1175-1186</pages>
+      <issue>6</issue>
+      <electronic-resource-num>10.1002&#x2F;pol.20230714</electronic-resource-num>
+      <abstract>Machine learning (ML) offers promising tools to develop surrogate models for polymers&#39; structure–property relations. Surrogate models can be built upon existing polymer data and are useful for rapidly predicting the properties of unknown polymers. The accuracy of such ML models appears to depend on the feature space representation of polymers, the range of training data, and learning algorithms. Here, we establish connections between these factors for predicting the glass transition temperature (Tg) of polymers. Our analysis suggests linear models with fewer fitting parameters are as accurate as nonlinear models with many hidden and unexplainable parameters. Also, the performance of a monomer topology-based ML model is found to be qualitatively identical to that of a physicochemical descriptor-based ML model. We find that the ML models&#39;s performance in the extrapolative region is enhanced as the property range of the training data increases. Moreover, we establish new Tg – polymer chemistry correlations via ML. Our work illustrates how ML can advance the fundamental understanding of polymer structure–property correlations and its efficacy for extrapolation problems.</abstract>
+      <publisher>John Wiley and Sons Inc</publisher>
+      <periodical><full-title>Journal of Polymer Science</full-title></periodical>
+      <keywords>
+        <keyword>explainable machine learning</keyword>
+        <keyword>glass transition temperature</keyword>
+        <keyword>polymer informatics</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Das, Swagatam
+          </author>
+          <author>
+            Mullick, Sankha Subhra
+          </author>
+          <author>
+            Zelinka, Ivan
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>On Supervised Class-Imbalanced Learning: An Updated Perspective and Some Key Challenges</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <volume>3</volume>
+      <pages>973-993</pages>
+      <issue>6</issue>
+      <electronic-resource-num>10.1109&#x2F;TAI.2022.3160658</electronic-resource-num>
+      <abstract>The problem of class imbalance has always been considered as a significant challenge to traditional machine learning and the emerging deep learning research communities. A classification problem can be considered as class imbalanced if the training set does not contain an equal number of labeled examples from all the classes. A classifier trained on such an imbalanced training set is likely to favor those classes containing a larger number of training examples than the others. Unfortunately, the classes that contain a small number of labelled instances usually correspond to rare and significant events. Thus, poor classification accuracy on these classes may lead to severe consequences. In this article, we aim to provide a comprehensive summary of the rich pool of research works attempting to combat the adversarial effects of class imbalance efficiently. Specifically, following a formal definition of the problem of class imbalance, we explore the plethora of traditional machine learning approaches aiming to mitigate its adversarial effects. We further discuss the state-of-the-art deep-learning-based approaches for improving a classifier&#39;s resilience against class imbalance and highlight the need for techniques tailored for such a paradigm. Moreover, we look at the emerging applications where class imbalance can be a major concern. Finally, we outline a few open problems along with the various challenges emerging with the advent of modern applications, deep learning paradigm, and new sources of data.</abstract>
+      <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+      <periodical><full-title>IEEE Transactions on Artificial Intelligence</full-title></periodical>
+      <keywords>
+        <keyword>Class-imbalanced classification</keyword>
+        <keyword>deep learning</keyword>
+        <keyword>future challenges</keyword>
+        <keyword>machine learning</keyword>
+        <keyword>open problems</keyword>
+        <keyword>performance evaluation indices</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Webb, G.I.
+          </author>
+          <author>
+            Zheng, Z.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Multistrategy ensemble learning: reducing error by combining ensemble learning techniques</title>
+      </titles>
+      <dates>
+        <year>2004</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>16</volume>
+      <pages>980-991</pages>
+      <issue>8</issue>
+      <electronic-resource-num>10.1109&#x2F;TKDE.2004.29</electronic-resource-num>
+      <abstract>Ensemble learning strategies, especially Boosting and Bagging decision trees, have demonstrated impressive capacities to improve the prediction accuracy of base learning algorithms. Further gains have been demonstrated by strategies that combine simple ensemble formation approaches. In this paper, we investigate the hypothesis that the improvement in accuracy of multistrategy approaches to ensemble learning is due to an increase in the diversity of ensemble members that are formed. In addition, guided by this hypothesis, we develop three new multistrategy ensemble learning techniques. Experimental results in a wide variety of natural domains suggest that these multistrategy ensemble learning techniques are, on average, more accurate than their component ensemble learning techniques.</abstract>
+      <periodical><full-title>IEEE Transactions on Knowledge and Data Engineering</full-title></periodical>
+      <keywords>
+        <keyword>Index Terms-Boosting</keyword>
+        <keyword>bagging</keyword>
+        <keyword>bias</keyword>
+        <keyword>committee learning</keyword>
+        <keyword>ensemble diversity ae</keyword>
+        <keyword>ensemble learning</keyword>
+        <keyword>multiboosting</keyword>
+        <keyword>variance</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>http:&#x2F;&#x2F;ieeexplore.ieee.org&#x2F;document&#x2F;1318582&#x2F;</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Levine, Felicia
+          </author>
+          <author>
+            Escarsega, John
+          </author>
+          <author>
+            La Scala, John
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Effect of isocyanate to hydroxyl index on the properties of clear polyurethane films</title>
+      </titles>
+      <dates>
+        <year>2012</year>
+          <pub-dates>
+            <date>7</date>
+          </pub-dates>
+      </dates>
+      <volume>74</volume>
+      <pages>572-581</pages>
+      <issue>3</issue>
+      <electronic-resource-num>10.1016&#x2F;j.porgcoat.2012.02.004</electronic-resource-num>
+      <abstract>Clear polyurethane films were made from aqueous polyurethane pre-polymer dispersions and water-dispersible aliphatic isocyanate pre-polymer, varying the amount of isocyanate used to cure the films. Film series were made from one of two polyol dispersions; the control XP-7110 having a higher molecular weight and containing 10 wt.% n-methylpyrrolidone (nmp) was compared to a zero-volatile organic compound (VOC) lower molecular weight alternate polyol XP-2591. Increasing the relative number of isocyanate groups to hydroxyl groups in these films provided an increase in glass transition temperature (T g), tensile strength, elastic modulus and improved barrier properties to dimethyl methylphosphonate (DMMP) for both polyols in this study. At all indices in this study XP-7110 films achieved slightly higher T g and slightly better resistance to permeation by DMMP than the XP-2591 films. Water resistance of the films was not improved at higher indices nor was there any difference between the polyols. Yet, the experimental results suggest that it is possible to produce polyurethane binders with acceptable film properties while reducing the VOC content of the formulation by using t-butyl acetate as the isocyanate reducing solvent. The zero-VOC polyol achieved better tensile properties with higher indexing than the current polyol containing 10 wt.% VOC. While the zero-VOC polyol did not perform as well as the baseline polyol in some tests, the differences in performance were small and thus there may be an opportunity to use the zero-VOC polyol as a partial or even a complete replacement of the current material. © 2012 Elsevier B.V. All rights reserved.</abstract>
+      <periodical><full-title>Progress in Organic Coatings</full-title></periodical>
+      <keywords>
+        <keyword>CARC</keyword>
+        <keyword>Crosslinking</keyword>
+        <keyword>Isocyanate to hydroxyl ratio</keyword>
+        <keyword>Permeability</keyword>
+        <keyword>Polyurethane</keyword>
+        <keyword>Tensile testing</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Shi, Jiaxin
+          </author>
+          <author>
+            Zheng, Tianze
+          </author>
+          <author>
+            Zhang, Yao
+          </author>
+          <author>
+            Guo, Baohua
+          </author>
+          <author>
+            Xu, Jun
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Cross-linked polyurethane with dynamic phenol-carbamate bonds: Properties affected by the chemical structure of isocyanate</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>4</date>
+          </pub-dates>
+      </dates>
+      <volume>12</volume>
+      <pages>2421-2432</pages>
+      <issue>16</issue>
+      <electronic-resource-num>10.1039&#x2F;d1py00157d</electronic-resource-num>
+      <abstract>Polyurethanes with covalent adaptive network (CAN) have received widespread attention due to their recyclability and self-healing properties. The strategy of regulating the dynamic network rearrangement kinetics through varying the monomer structure is particularly interesting. Herein, based on the phenol-carbamate dynamic bond, we design a strategy to regulate the rearrangement kinetics of the dynamic covalent network by adjusting the chemical structure of aliphatic isocyanates with the same initial cross-linking degree. Temperature-varying FTIR and stress relaxation experiments prove the feasibility of this strategy from the perspective of thermodynamics and kinetics. For the studied isocyanates, greater steric hindrance or attachment of benzyl groups can promote the rearrangement of CAN. The two factors can reduce the relaxation time by one order of magnitude, and the relaxation activation energy can be reduced by over 20 kJ mol-1. Regardless of the network rearrangement kinetics, all polyurethane samples show good self-healing and reprocessing performance. In addition, the mechanical properties and stability in a hot air environment also vary with the chemical structure of the isocyanates, e.g., the isocyanates with alicyclic structure can improve the thermal stability, and the mechanical properties are almost unchanged after 24 h of treatment at 100 °C under air conditions, while the other polyurethanes show obvious softening. The method to regulate the rearrangement kinetics of phenol-carbamate CAN via changing the chemical structure of the monomers would be beneficial for developing self-healing and recyclable cross-linked polyurethanes with variable properties synthesized from industrial chemical feedstocks.</abstract>
+      <publisher>Royal Society of Chemistry</publisher>
+      <periodical><full-title>Polymer Chemistry</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Wadekar, Mohan
+          </author>
+          <author>
+            Eevers, Walter
+          </author>
+          <author>
+            Vendamme, Richard
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Influencing the properties of LigninPU films by changing copolyol chain length, lignin content and NCO&#x2F;OH mol ratio</title>
+      </titles>
+      <dates>
+        <year>2019</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <volume>141</volume>
+      <electronic-resource-num>10.1016&#x2F;j.indcrop.2019.111655</electronic-resource-num>
+      <abstract>The polyurethane films with chemical incorporation of lignin (ligninPU) films were synthesized using kraft lignin (KL), 4,4′-Methylene diphenyl diisocyanate (MDI) and polypropylene glycol (PPG) copolyols and characterized. The effect of PPG chain lengths, lignin content, and NCO&#x2F;OH mol ratio on crosslink density, thermal and mechanical properties of solution casted LigninPU films were studied. In general, homogenous and good quality films were obtained, irrespective of poor miscibility between PPG and KL. FTIR established the formation of urethane as well as urea linkages and covalent incorporation of lignin macromers within the PU network. The crosslink density (CD) values were between 0.2 and 1.2 × 10−3 mol cm−3. They were mainly influenced by lignin W% and increased with lignin content. A complex effect of change in NCO&#x2F;OH ratio at constant lignin content and PPG copolyol on the CD values was observed. The thermal stability was higher for the films prepared with longer PPG copolyols at constant NCO&#x2F;OH mol ratio and lignin content. The char yield for the ligninPU films increased as the NCO&#x2F;OH ratio was increased from 1.1 to 1.5. The glass transition temperatures of the films were mainly influenced by the PPG chain length. PPG 425 based films were brittle at room temperature and exhibited Tg above 40 °C. Whereas the longer PPG derived ligninPU displayed more flexibility and featured Tg near or below room temperature. The mechanical properties of the films were found to deteriorate with increasing PPG chain length. The ultimate tensile strength and Young&#39;s modulus increased with increasing lignin content, however % elongation at break decreased.</abstract>
+      <publisher>Elsevier B.V.</publisher>
+      <periodical><full-title>Industrial Crops and Products</full-title></periodical>
+      <keywords>
+        <keyword>Crosslink density</keyword>
+        <keyword>Kraft ligninPU films</keyword>
+        <keyword>MDI</keyword>
+        <keyword>Tensile testing</keyword>
+        <keyword>Thermal analysis</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Gouveia, Julia Rocha
+          </author>
+          <author>
+            de Sousa Júnior, Rogério Ramos
+          </author>
+          <author>
+            Ribeiro, Anderson Orzari
+          </author>
+          <author>
+            Saraiva, Sergio Adriano
+          </author>
+          <author>
+            dos Santos, Demetrio Jackson
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Effect of soft segment molecular weight and NCO:OH ratio on thermomechanical properties of lignin-based thermoplastic polyurethane adhesive</title>
+      </titles>
+      <dates>
+        <year>2020</year>
+          <pub-dates>
+            <date>5</date>
+          </pub-dates>
+      </dates>
+      <volume>131</volume>
+      <electronic-resource-num>10.1016&#x2F;j.eurpolymj.2020.109690</electronic-resource-num>
+      <abstract>During the last decades lignin has been largely applied on development of reactive polyurethanes. More recently, significant efforts were dedicated to synthesizing lignin-based thermoplastic polyurethanes (LTPUs). However, the relationship between molecular structure, properties and feasible LTPU applications still lacks in the literature. Aiming to overcome this absence, kraft lignin was chemically modified by partial acetylation in order to reduce the reactive sites and avoid the formation of a highly cross-linked structure. The extent of the functionalization reaction was properly investigated by Fourier transformed infra-red spectroscopy (FTIR-ATR) and quantitative 31P nuclear magnetic resonance analysis and the results revealed that the hydroxyl content from the parental lignin could be reduced by half in a controlled manner. In the second stage of this research, lignin-based thermoplastic polyurethanes (LTPUs) were successfully synthesized using the partially acetylated Kraft lignin macromonomer as the polyol to form a stable and thermo-formable polymer. The effect of lignin content, soft segment molecular weight, and the NCO:OH ratio on chemical, thermal, and mechanical properties were investigated. At last, LTPUs were applied as hot-melt adhesive for wood and their mechanical behavior evaluated by single lap shear tests. The results elucidated how those parameters influence LTPU properties and might be used as a design tool to tune LTPUs properties, supporting the development of industrial LTPU application.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>European Polymer Journal</full-title></periodical>
+      <keywords>
+        <keyword>Hot-melt adhesive</keyword>
+        <keyword>Lignin</keyword>
+        <keyword>Lignin partial acetylation</keyword>
+        <keyword>Thermoplastic polyurethane</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Jutrzenka Trzebiatowska, Patrycja
+          </author>
+          <author>
+            Santamaria Echart, Arantzazu
+          </author>
+          <author>
+            Calvo Correas, Tamara
+          </author>
+          <author>
+            Eceiza, Arantxa
+          </author>
+          <author>
+            Datta, Janusz
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>The changes of crosslink density of polyurethanes synthesised with using recycled component. Chemical structure and mechanical properties investigations</title>
+      </titles>
+      <dates>
+        <year>2018</year>
+          <pub-dates>
+            <date>2</date>
+          </pub-dates>
+      </dates>
+      <volume>115</volume>
+      <pages>41-48</pages>
+      <electronic-resource-num>10.1016&#x2F;j.porgcoat.2017.11.008</electronic-resource-num>
+      <abstract>This paper aims at the utilisation of glycerolysate (Gly) obtained in polyurethane recycling process by means of crude glycerine, which has in its structure hydroxyl end groups that allow for further processing. Polyurethanes (PUs) were synthesised using prepolymer method with the mixture of neat polyol and glycerolysate, in different ratios, with 4,4-diphenylmethane diisocyanate (MDI). The prepolymer was subsequently extended using 1,4-butanediol (BD). The incorporation of glycerolysate caused the crosslinking of obtained polyurethane materials. The crosslink density was calculated from swelling measurements by means of Flory and Rehner equation. The effect of recycled component content on the structure, thermal and mechanical properties were investigated by Fourier transform infrared spectroscopy (FTIR), differential scanning calorimetry (DSC), thermogravimetric analysis (TGA), dynamic mechanical analysis (DMA) and mechanical tests, respectively. Morphology was also analysed by atomic force microscopy (AFM). As the content of recycled component increased, the swelling ratio decreased and simultaneously crosslink density increased, resulting in the increase of glass transition and storage modulus at room temperature. Thermomechanical stability, tensile strength, elastic modulus and hardness of PUs also increased with the incorporation of glycerolysate. Although elongation at break decreased, the recoverable deformation increased with the content of glycerolysate. Morphology reveals the transition from a microphase-separated microstructure to an interconnected hard segments domain structure with the incorporation of glycerolysate. These materials can be applied as protective coatings.</abstract>
+      <publisher>Elsevier B.V.</publisher>
+      <periodical><full-title>Progress in Organic Coatings</full-title></periodical>
+      <keywords>
+        <keyword>Chemical recycling</keyword>
+        <keyword>Crosslink density</keyword>
+        <keyword>Mechanical properties</keyword>
+        <keyword>Polyurethanes</keyword>
+        <keyword>Thermal properties</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Ortiz-Serna, P.
+          </author>
+          <author>
+            Carsí, M.
+          </author>
+          <author>
+            Culebras, M.
+          </author>
+          <author>
+            Collins, M. N.
+          </author>
+          <author>
+            Sanchis, M. J.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Exploring the role of lignin structure in molecular dynamics of lignin&#x2F;bio-derived thermoplastic elastomer polyurethane blends</title>
+      </titles>
+      <dates>
+        <year>2020</year>
+          <pub-dates>
+            <date>9</date>
+          </pub-dates>
+      </dates>
+      <volume>158</volume>
+      <pages>1369-1379</pages>
+      <accession-num>32376254</accession-num>
+      <electronic-resource-num>10.1016&#x2F;j.ijbiomac.2020.04.261</electronic-resource-num>
+      <abstract>The relaxation behavior of two lignins (Alcell organosolv, OSL, and hydroxypropyl modified Kraft, ML) and bio-based thermoplastic polyurethane (TPU) blends have been studied by Differential scanning calorimetry (DSC), Dynamic-mechanical analysis (DMA) and Dielectric relaxation spectroscopy (DRS). The effect of blending on the glass and local relaxation processes as a function of composition, frequency, and temperature has been assessed. The dielectric spectra were resolved into dipolar relaxations as well as conductive processes for differing blend compositions. Characteristic relaxation times, activation energies and dielectric relaxation strengths of lignin&#x2F;xTPU blends were also investigated. It was found that blending suppresses the α-relaxation process of the blends compared to virgin TPU. On the other hand, while the position of the β-relaxation was not influenced by blending, a reduction of the activation energies, Ea, of this process was observed in the lignin&#x2F;xTPU blends. Finally, changes are observed in the conductivity behavior of both blends, with conductivity processes more favorable for the OSL&#x2F;xTPU blends.</abstract>
+      <publisher>Elsevier B.V.</publisher>
+      <periodical><full-title>International Journal of Biological Macromolecules</full-title></periodical>
+      <keywords>
+        <keyword>Bio-based blends</keyword>
+        <keyword>Lignin</keyword>
+        <keyword>Relaxation behavior</keyword>
+        <keyword>Thermal analysis</keyword>
+        <keyword>Thermoplastic elastomeric polyurethane</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Mienye, Ibomoiye Domor
+          </author>
+          <author>
+            Sun, Yanxia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A Survey of Ensemble Learning: Concepts, Algorithms, Applications, and Prospects</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+      </dates>
+      <volume>10</volume>
+      <pages>99129-99149</pages>
+      <electronic-resource-num>10.1109&#x2F;ACCESS.2022.3207287</electronic-resource-num>
+      <abstract>Ensemble learning techniques have achieved state-of-the-art performance in diverse machine learning applications by combining the predictions from two or more base models. This paper presents a concise overview of ensemble learning, covering the three main ensemble methods: bagging, boosting, and stacking, their early development to the recent state-of-the-art algorithms. The study focuses on the widely used ensemble algorithms, including random forest, adaptive boosting (AdaBoost), gradient boosting, extreme gradient boosting (XGBoost), light gradient boosting machine (LightGBM), and categorical boosting (CatBoost). An attempt is made to concisely cover their mathematical and algorithmic representations, which is lacking in the existing literature and would be beneficial to machine learning researchers and practitioners.</abstract>
+      <publisher>Institute of Electrical and Electronics Engineers Inc.</publisher>
+      <periodical><full-title>IEEE Access</full-title></periodical>
+      <keywords>
+        <keyword>Algorithms</keyword>
+        <keyword>classification</keyword>
+        <keyword>ensemble learning</keyword>
+        <keyword>fraud detection</keyword>
+        <keyword>machine learning</keyword>
+        <keyword>medical diagnosis</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="book_section"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Dietterich, Thomas G.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Ensemble Methods in Machine Learning</title>
+      </titles>
+      <dates>
+        <year>2000</year>
+      </dates>
+      <volume>1857</volume>
+      <pages>1-15</pages>
+      <isbn>978-3-540-45014-6</isbn>
+      <electronic-resource-num>10.1007&#x2F;3-540-45014-9_1</electronic-resource-num>
+      <abstract>Ensemble methods are learning algorithms that construct a set of classifiers and then classify new data points by taking a (weigh-ted) vote of their predictions. The original ensemble method is Bayesian averaging, but more recent algorithms include error-correcting output coding, Bagging, and boosting. This paper reviews these methods and explains why ensembles can often perform better than any single classi-fier. Some previous studies comparing ensemble methods are reviewed, and some new experiments are presented to uncover the reasons that Adaboost does not overfit rapidly.</abstract>
+      <city>Berlin, Heidelberg</city>
+      <publisher>Springer</publisher>
+      <periodical><full-title>Multiple Classifier Systems</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>http:&#x2F;&#x2F;link.springer.com&#x2F;10.1007&#x2F;3-540-45014-9_1</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Acaru, Silviu Florin
+          </author>
+          <author>
+            Abdullah, Rosnah
+          </author>
+          <author>
+            Lai, Daphne Teck Ching
+          </author>
+          <author>
+            Lim, Ren Chong
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Hydrothermal biomass processing for green energy transition: insights derived from principal component analysis of international patents</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+          <pub-dates>
+            <date>9</date>
+          </pub-dates>
+      </dates>
+      <volume>8</volume>
+      <pages>e10738</pages>
+      <issue>9</issue>
+      <electronic-resource-num>10.1016&#x2F;j.heliyon.2022.e10738</electronic-resource-num>
+      <abstract>As efforts to achieve Net Zero are intensifying, there is a strong need to identify the technological positioning of green process innovations that can support the green energy transition. A veritable contender to support these efforts is the hydrothermal biomass processing technology. This process innovation comprises diverse techniques that can convert biomass substrates into valuable low-carbon fuels. Coordination across all available conversion approaches is encouraged to propel the application of those that consider the environmental and sustainability impacts. We assessed the innovation intensity for different techniques under this green process innovation through applying natural language processing and deployment of principal component analysis on patent data. We positioned our techniques within four distinctive groups (intense, dormant, emerging, and exploratory). In this way, we tracked which hydrothermal technique currently dominates international applications and which ones are gaining traction in the future.</abstract>
+      <publisher>The Author(s)</publisher>
+      <periodical><full-title>Heliyon</full-title></periodical>
+      <keywords>
+        <keyword>Green energy transition</keyword>
+        <keyword>Hydrothermal biomass processing</keyword>
+        <keyword>Innovation intensity</keyword>
+        <keyword>Natural language processing</keyword>
+        <keyword>Patent data analytics</keyword>
+        <keyword>Principal component analysis</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>https:&#x2F;&#x2F;linkinghub.elsevier.com&#x2F;retrieve&#x2F;pii&#x2F;S2405844022020266</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Abdi, Hervé
+          </author>
+          <author>
+            Williams, Lynne J.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Principal component analysis</title>
+      </titles>
+      <dates>
+        <year>2010</year>
+          <pub-dates>
+            <date>7</date>
+          </pub-dates>
+      </dates>
+      <volume>2</volume>
+      <pages>433-459</pages>
+      <issue>4</issue>
+      <electronic-resource-num>10.1002&#x2F;wics.101</electronic-resource-num>
+      <abstract>Principal component analysis (PCA) is amultivariate technique that analyzes a data table in which observations are described by several inter-correlated quantitative dependent variables. Its goal is to extract the important information from the table, to represent it as a set of new orthogonal variables called principal components, and to display the pattern of similarity of the observations and of the variables as points in maps. The quality of the PCA model can be evaluated using cross-validation techniques such as the bootstrap and the jackknife. PCA can be generalized as correspondence analysis (CA) in order to handle qualitative variables and as multiple factor analysis (MFA) in order to handle heterogeneous sets of variables. Mathematically, PCA depends upon the eigen-decomposition of positive semidefinite matrices and upon the singular value decomposition (SVD) of rectangular matrices. © 2010 John Wiley &amp; Sons, Inc.</abstract>
+      <periodical><full-title>Wiley Interdisciplinary Reviews: Computational Statistics</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Shirazian, Saeed
+          </author>
+          <author>
+            Huynh, Thoa
+          </author>
+          <author>
+            Sarkar, Shaheen M.
+          </author>
+          <author>
+            Habibi Zare, Masoud
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Development and optimization of machine learning models for estimation of mechanical properties of linear low-density polyethylene</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>137</volume>
+      <electronic-resource-num>10.1016&#x2F;j.polymertesting.2024.108525</electronic-resource-num>
+      <abstract>A hybrid methodology was developed and implemented for estimation of polymeric mechanical properties in rotational moulding process. The considered polymer in this study is linear low-density polyethylene, known as LLDPE, which has extensive application in plastic industry. The mechanical properties of the polymer were assessed and correlated to the oven residence time to build the predictive model of moulding process. A tiny dataset containing only 25 data rows via a number of machine learning models were assessed. Oven residence time is the only input, while the LLDPE&#39;s properties including tensile strength, impact strength, and flexure strength are the outputs considered in the machine learning models. We used tree-based ensemble methods for modeling in this work and they are tuned using FA (Firefly Algorithm) optimizer to find optimal hyper-parameters of them. Finally, the optimal models had shown a great performance to predict the output accurately. For tensile strength, the best model (FA-ET) has an R2 value of 0.9994, this score is 0.9995 for impact strength and 0.9968 for flexure strength. The tree-based models tuned in this study revealed to be robust in estimation of polymeric properties and can be used to obtain the products with the best quality.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Polymer Testing</full-title></periodical>
+      <keywords>
+        <keyword>Artificial intelligence</keyword>
+        <keyword>Machine learning</keyword>
+        <keyword>Modeling</keyword>
+        <keyword>Polymer</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Zhan, Siqi
+          </author>
+          <author>
+            Huang, Wanhui
+          </author>
+          <author>
+            Dong, Caibo
+          </author>
+          <author>
+            Chen, Qionghai
+          </author>
+          <author>
+            Zhao, Hengheng
+          </author>
+          <author>
+            Duan, Pengwei
+          </author>
+          <author>
+            Hu, Anwen
+          </author>
+          <author>
+            Li, Qian
+          </author>
+          <author>
+            Li, Ying
+          </author>
+          <author>
+            Liu, Jun
+          </author>
+          <author>
+            Zhang, Liqun
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Predicting glass transition temperature of polymers by combining molecular dynamics simulations and machine learning techniques</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>40</volume>
+      <electronic-resource-num>10.1016&#x2F;j.mtcomm.2024.110181</electronic-resource-num>
+      <abstract>Polymeric materials, valued for their cost-effectiveness and ease of processing, play a pivotal role in diverse applications. Among them, solution polymerized styrene butadiene rubber (SSBR) stands out with low rolling and wet skid resistance, ideal for eco-friendly tire. The glass transition temperature (Tg) is an important parameter in determining the performance of SSBR, which is time-consuming to test with conventional experiments. In recent years, machine learning (ML) has emerged as a useful tool in materials science. In this study, all-atom molecular dynamics (AAMD) simulation provided the foundational training data. Subsequently, ML techniques are utilized to efficiently predict SSBR&#39;s Tg based on its content of four key structural components. To address the challenge of limited sample sizes, the innovative integration of Ordinary Kriging (OK) from geostatistics and Nearest Neighbor Interpolation (NNI) was employed to compute label values for interpolation points, which surpasses previous studies relying solely on NNI. Comparative analysis of four ML models (XGBoost, Ridge, LASSO, and SVR) reveals XGBoost&#39;s superior performance in handling this nonlinear problem, with consistently high R2 and low RMSE scores. Through 900 repeated experiments, the model demonstrates robustness, maintaining an average R2 of approximately 0.9703. Ultimately, the novel integrated ML approach (NNI-OK-XGBoost) was proposed. Furthermore, four new combinations of structural unit content were evaluated using both ML predictions and AAMD simulations. The validation confirms the efficiency and accuracy of this method in predicting SSBR&#39;s Tg across varying composition ratios within a specified composition space. This work presents a viable solution for accurately and rapidly predicting the Tg of polymeric materials, particularly in scenarios with limited sample sizes.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Materials Today Communications</full-title></periodical>
+      <keywords>
+        <keyword>Glass transition temperature</keyword>
+        <keyword>Molecular dynamics simulation</keyword>
+        <keyword>Ordinary Kriging</keyword>
+        <keyword>Solution polymerized styrene butadiene rubber</keyword>
+        <keyword>XGBoost</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Zhao, Yuankai
+          </author>
+          <author>
+            Mulder, Roger J.
+          </author>
+          <author>
+            Houshyar, Shadi
+          </author>
+          <author>
+            Le, Tu C.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A review on the application of molecular descriptors and machine learning in polymer design</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>7</date>
+          </pub-dates>
+      </dates>
+      <volume>14</volume>
+      <pages>3325-3346</pages>
+      <issue>29</issue>
+      <electronic-resource-num>10.1039&#x2F;d3py00395g</electronic-resource-num>
+      <abstract>Polymers are an important class of materials with vast arrays of physical and chemical properties and have been widely used in many applications and industrial products. Although there have been many successful polymer design studies, the pace of materials discovery research can be accelerated to meet the high demand for new, functional materials. With the advanced development of artificial intelligence, the use of machine learning has shown great potential in data-driven design and the discovery of polymers to date. Several polymer datasets have been compiled, allowing robust machine learning models to be trained and provide accurate predictions of various polymer properties. Such models are useful for screening promising candidate polymers with high-performing properties prior to lab synthesis. In this review, we focus on the most critical components of polymer design using molecular descriptors and machine learning algorithms. A summary of existing polymer databases is provided, and the different categories of polymer descriptors are discussed in detail. The application of these descriptors in machine learning studies of polymer design is critically reviewed, leading to a discussion of the challenges, opportunities, and future perspectives for polymer research using these advanced computational tools.</abstract>
+      <publisher>Royal Society of Chemistry</publisher>
+      <periodical><full-title>Polymer Chemistry</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Milad, Abdalrhman
+          </author>
+          <author>
+            Hussein, Sadaam Hadee
+          </author>
+          <author>
+            Khekan, Ahlam R.
+          </author>
+          <author>
+            Rashid, Mohammed
+          </author>
+          <author>
+            Al-Msari, Haitham
+          </author>
+          <author>
+            Tran, Tan Huy
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Development of ensemble machine learning approaches for designing fiber-reinforced polymer composite strain prediction model</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>38</volume>
+      <pages>3625-3637</pages>
+      <issue>4</issue>
+      <electronic-resource-num>10.1007&#x2F;s00366-021-01398-4</electronic-resource-num>
+      <abstract>Over the past few decades, it has been observed a remarkable progression in the development of computer aid models in the field of civil engineering. Machine learning models provide a reliable and robust alternative modeling design for solving complex engineering issues. The current study introduced three versions of newly explored ensemble machine learning models [extreme gradient boosting (XGBoost), multivariate adaptive regression spline (MARS) and random forest (RF)] for fiber-reinforced polymer (FRP) composite strain prediction. An experimental dataset were collected from the literature with total number of 729 experiments. The dataset is presented the FRP strain and its influential parameters including material geometry, strength properties, strain properties, FRP properties, and confinement properties. Five different input combination were built for the prediction process of the FRP composite strain. The current research results were validated against the well-established literature review empirical formulations and the machine learning models. In general, the modeling results confirmed the capacity of the proposed new ML models in predicting the strain enhancement ratio. The fifth input combination incorporated all the predators attained the best modeling accuracy results. However, the developed MARS model could achieve acceptable and superior prediction results using only strain properties parameters. Overall, the research finding confirmed the significant of the proposed ensemble ML as reliable alternative computer aid model for solving strain enhancement ratio problem.</abstract>
+      <publisher>Springer Science and Business Media Deutschland GmbH</publisher>
+      <periodical><full-title>Engineering with Computers</full-title></periodical>
+      <keywords>
+        <keyword>Composite strain</keyword>
+        <keyword>Computer aid</keyword>
+        <keyword>Fiber-reinforced polymer</keyword>
+        <keyword>Structural engineering</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Esmaeili, Hamed
+          </author>
+          <author>
+            Rizvi, Reza
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>An accelerated strategy to characterize mechanical properties of polymer composites using the ensemble learning approach</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>10</date>
+          </pub-dates>
+      </dates>
+      <volume>229</volume>
+      <electronic-resource-num>10.1016&#x2F;j.commatsci.2023.112432</electronic-resource-num>
+      <abstract>Screening new materials and decoding their structure-property relationships is a time-consuming and costly task in the laboratory. This research proposes the use of machine learning (ML) algorithms with a new train-test splitting strategy to predict the complete stress-strain curves of polymer composites based on their compositional, environmental, and processing conditions using data extracted from an open-source database. Both the artificial neural network (ANN) and ensemble learning (EL) models demonstrated acceptable fit to the training datasets, yielding root mean squared errors (RMSEs) below 3.2 MPa. However, EL models demonstrated superior performance by reducing the RMSE of the testing data by an average of 61% for polyethylene terephthalate (PET) composites and 30% for polycarbonate (PC) composites, compared to the wide ANN models. Additionally, the developed EL models reduced the training time from a few hours (∼4 h on average) for wide ANNs to just a few seconds. The results of this study imply that relying solely on ANN models may not always provide the best solution for a given problem in materials science, and that EL models should be considered as a viable alternative, particularly in cases where data are limited. This study will pave the way for the automated design and characterization of advanced composites, while reducing the costly and laborious experiments in keeping with the vision of smart manufacturing and Industry 4.0.</abstract>
+      <publisher>Elsevier B.V.</publisher>
+      <periodical><full-title>Computational Materials Science</full-title></periodical>
+      <keywords>
+        <keyword>Artificial neural network</keyword>
+        <keyword>Characterization</keyword>
+        <keyword>Ensemble learning</keyword>
+        <keyword>Machine learning</keyword>
+        <keyword>Mechanical properties</keyword>
+        <keyword>Polymer composites</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Albuquerque, Rodrigo Q.
+          </author>
+          <author>
+            Rothenhäusler, Florian
+          </author>
+          <author>
+            Ruckdäschel, Holger
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Designing formulations of bio-based, multicomponent epoxy resin systems via machine learning</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>1</date>
+          </pub-dates>
+      </dates>
+      <volume>49</volume>
+      <pages>59-70</pages>
+      <issue>1</issue>
+      <electronic-resource-num>10.1557&#x2F;s43577-023-00504-9</electronic-resource-num>
+      <abstract>Abstract: Petroleum-based epoxy resins are commonly used as a matrix in fiber-reinforced polymer composites. Bio-based epoxy resin systems could be a more environmentally friendly alternative to conventional epoxy resins. In this work, novel formulations of multicomponent, amino acid-based resin systems exhibiting high or low glass-transition temperatures (Tg) were designed via Bayesian optimization and active learning techniques. After only five high- Tg experiments, thermosets with Tg already higher than those of the individual components were obtained, pointing out the existence of synergistic effects among the amino acids used and confirming the efficiency of the theoretical design. Linear and nonlinear machine learning (ML) models successfully predicted Tg with a mean absolute error of 3.98 ∘C and R2 score of 0.91. A price reduction of up to 13.7% was achieved while maintaining the Tg of 130 ∘C using an optimized formulation. The LASSO model provided information about the dependence of Tg on the number of active hydrogen atoms and aromaticity. This study highlights the importance of Bayesian optimization and ML to achieve a more sustainable development of epoxy resin materials. Impact statement: This article shows how the sustainability of epoxy resin systems (ERSs) can be significantly improved by combining experimental and theoretical strategies. First, amino acids are used as curing agents in multicomponent formulations to produce bio-based ERSs. Second, the number of trial-and-error experiments required to obtain formulations with high or low glass-transition temperatures (T g) is greatly reduced using machine learning (ML) strategies to design all experiments. Not only is it shown how T g can be maximized in only five new theoretically designed formulations, but the economic advantages of the proposed approach are also discussed. The trends between T g and the type of optimized biocomponents are discussed based on the unambiguous interpretation of the best-trained ML model. The results presented in this study pave the way for the theoretical design of more sustainable polymeric materials. Graphical abstract: [Figure not available: see fulltext.]</abstract>
+      <publisher>Springer Nature</publisher>
+      <periodical><full-title>MRS Bulletin</full-title></periodical>
+      <keywords>
+        <keyword>Bio-based</keyword>
+        <keyword>Epoxy resin</keyword>
+        <keyword>Machine learning</keyword>
+        <keyword>Sustainability</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Vanpoucke, D E P
+          </author>
+          <author>
+            Delgove, M A F
+          </author>
+          <author>
+            Stouten, J
+          </author>
+          <author>
+            Noordijk, J
+          </author>
+          <author>
+            De Vos, N
+          </author>
+          <author>
+            Matthysen, K
+          </author>
+          <author>
+            Deroover, G G P
+          </author>
+          <author>
+            Mehrkanoon, S
+          </author>
+          <author>
+            Bernaerts, K V
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A machine learning approach for the design of hyperbranched polymeric dispersing agents based on aliphatic polyesters for radiation-curable inks</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+      </dates>
+      <volume>71</volume>
+      <pages>966-975</pages>
+      <issue>8</issue>
+      <accession-num>WOS:000760262500001</accession-num>
+      <electronic-resource-num>10.1002&#x2F;pi.6378</electronic-resource-num>
+      <abstract>Polymeric dispersing agents were prepared from aliphatic polyesters consisting of delta-undecalactone (UDL) and beta,delta-trimethyl-epsilon-caprolactones (TMCL) as biobased monomers, which were polymerized in bulk via organocatalysts. Graft copolymers were obtained by coupling of the polyesters to poly(ethylene imine) (PEI) in the bulk without using solvents. Various parameters that influence the performance of the dispersing agents in pigment-based UV-curable matrices were investigated: chemistry of the polyester (UDL or TMCL), polyester&#x2F;PEI weight ratio, molecular weight of the polyesters and of PEI. The performance of the dispersing agents was modelled using machine learning in order to increase the efficiency of the dispersant design. The resulting models were presented as analytical models for the individual polyesters and the synthesis conditions for optimally performing dispersing agents were indicated as a preference for high-molecular-weight polyesters and a polyester-dependent maximum polyester&#x2F;PEI weight ratio. (c) 2022 The Authors. Polymer International published by John Wiley &amp; Sons Ltd on behalf of Society of Industrial Chemistry.</abstract>
+      <periodical><full-title>Polymer International</full-title></periodical>
+      <keywords>
+        <keyword>baeyer-villiger monooxygenase</keyword>
+        <keyword>dispersant</keyword>
+        <keyword>lactones</keyword>
+        <keyword>machine learning</keyword>
+        <keyword>multitarget optimization</keyword>
+        <keyword>poly(ethylene imine)</keyword>
+        <keyword>polyester</keyword>
+        <keyword>structure-property relationships</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>&lt;Go to ISI&gt;:&#x2F;&#x2F;WOS:000760262500001</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Vanpoucke, D E P
+          </author>
+          <author>
+            van Knippenberg, O S J
+          </author>
+          <author>
+            Hermans, K
+          </author>
+          <author>
+            Bernaerts, K V
+          </author>
+          <author>
+            Mehrkanoon, S
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Small data materials design with machine learning: When the average model knows best</title>
+      </titles>
+      <dates>
+        <year>2020</year>
+      </dates>
+      <volume>128</volume>
+      <pages>1063</pages>
+      <issue>5</issue>
+      <accession-num>WOS:000559809200001</accession-num>
+      <electronic-resource-num>Artn 05490110.1063&#x2F;5.0012285</electronic-resource-num>
+      <abstract>Machine learning is quickly becoming an important tool in modern materials design. Where many of its successes are rooted in huge datasets, the most common applications in academic and industrial materials design deal with datasets of at best a few tens of data points. Harnessing the power of machine learning in this context is, therefore, of considerable importance. In this work, we investigate the intricacies introduced by these small datasets. We show that individual data points introduce a significant chance factor in both model training and quality measurement. This chance factor can be mitigated by the introduction of an ensemble-averaged model. This model presents the highest accuracy, while at the same time, it is robust with regard to changing the dataset size. Furthermore, as only a single model instance needs to be stored and evaluated, it provides a highly efficient model for prediction purposes, ideally suited for the practical materials scientist.</abstract>
+      <periodical><full-title>Journal of Applied Physics</full-title></periodical>
+      <keywords>
+        <keyword>diamond</keyword>
+        <keyword>discovery</keyword>
+        <keyword>information</keyword>
+        <keyword>multitarget optimization</keyword>
+        <keyword>regression</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+          <url>&lt;Go to ISI&gt;:&#x2F;&#x2F;WOS:000559809200001</url>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Tao, Lei
+          </author>
+          <author>
+            Varshney, Vikas
+          </author>
+          <author>
+            Li, Ying
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Benchmarking Machine Learning Models for Polymer Informatics: An Example of Glass Transition Temperature</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>11</date>
+          </pub-dates>
+      </dates>
+      <volume>61</volume>
+      <pages>5395-5413</pages>
+      <issue>11</issue>
+      <electronic-resource-num>10.1021&#x2F;acs.jcim.1c01031</electronic-resource-num>
+      <abstract>In the field of polymer informatics, utilizing machine learning (ML) techniques to evaluate the glass transition temperature Tg and other properties of polymers has attracted extensive attention. This data-centric approach is much more efficient and practical than the laborious experimental measurements when encountered a daunting number of polymer structures. Various ML models are demonstrated to perform well for Tg prediction. Nevertheless, they are trained on different data sets, using different structure representations, and based on different feature engineering methods. Thus, the critical question arises on selecting a proper ML model to better handle the Tg prediction with generalization ability. To provide a fair comparison of different ML techniques and examine the key factors that affect the model performance, we carry out a systematic benchmark study by compiling 79 different ML models and training them on a large and diverse data set. The three major components in setting up an ML model are structure representations, feature representations, and ML algorithms. In terms of polymer structure representation, we consider the polymer monomer, repeat unit, and oligomer with longer chain structure. Based on that feature, representation is calculated, including Morgan fingerprinting with or without substructure frequency, RDKit descriptors, molecular embedding, molecular graph, etc. Afterward, the obtained feature input is trained using different ML algorithms, such as deep neural networks, convolutional neural networks, random forest, support vector machine, LASSO regression, and Gaussian process regression. We evaluate the performance of these ML models using a holdout test set and an extra unlabeled data set from high-throughput molecular dynamics simulation. The ML model&#39;s generalization ability on an unlabeled data set is especially focused, and the model&#39;s sensitivity to topology and the molecular weight of polymers is also taken into consideration. This benchmark study provides not only a guideline for the Tg prediction task but also a useful reference for other polymer informatics tasks.</abstract>
+      <publisher>American Chemical Society</publisher>
+      <periodical><full-title>Journal of Chemical Information and Modeling</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Weber, Jana M.
+          </author>
+          <author>
+            Guo, Zhen
+          </author>
+          <author>
+            Zhang, Chonghuan
+          </author>
+          <author>
+            Schweidtmann, Artur M.
+          </author>
+          <author>
+            Lapkin, Alexei A.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Chemical data intelligence for sustainable chemistry</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>11</date>
+          </pub-dates>
+      </dates>
+      <volume>50</volume>
+      <pages>12013-12036</pages>
+      <issue>21</issue>
+      <accession-num>34520507</accession-num>
+      <electronic-resource-num>10.1039&#x2F;d1cs00477h</electronic-resource-num>
+      <abstract>This study highlights new opportunities for optimal reaction route selection from large chemical databases brought about by the rapid digitalisation of chemical data. The chemical industry requires a transformation towards more sustainable practices, eliminating its dependencies on fossil fuels and limiting its impact on the environment. However, identifying more sustainable process alternatives is, at present, a cumbersome, manual, iterative process, based on chemical intuition and modelling. We give a perspective on methods for automated discovery and assessment of competitive sustainable reaction routes based on renewable or waste feedstocks. Three key areas of transition are outlined and reviewed based on their state-of-the-art as well as bottlenecks: (i) data, (ii) evaluation metrics, and (iii) decision-making. We elucidate their synergies and interfaces since only together these areas can bring about the most benefit. The field of chemical data intelligence offers the opportunity to identify the inherently more sustainable reaction pathways and to identify opportunities for a circular chemical economy. Our review shows that at present the field of data brings about most bottlenecks, such as data completion and data linkage, but also offers the principal opportunity for advancement.</abstract>
+      <publisher>Royal Society of Chemistry</publisher>
+      <periodical><full-title>Chemical Society Reviews</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Dou, Bozheng
+          </author>
+          <author>
+            Zhu, Zailiang
+          </author>
+          <author>
+            Merkurjev, Ekaterina
+          </author>
+          <author>
+            Ke, Lu
+          </author>
+          <author>
+            Chen, Long
+          </author>
+          <author>
+            Jiang, Jian
+          </author>
+          <author>
+            Zhu, Yueying
+          </author>
+          <author>
+            Liu, Jie
+          </author>
+          <author>
+            Zhang, Bengong
+          </author>
+          <author>
+            Wei, Guo Wei
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Machine Learning Methods for Small Data Challenges in Molecular Science</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>7</date>
+          </pub-dates>
+      </dates>
+      <volume>123</volume>
+      <pages>8736-8780</pages>
+      <issue>13</issue>
+      <electronic-resource-num>10.1021&#x2F;acs.chemrev.3c00189</electronic-resource-num>
+      <abstract>Small data are often used in scientific and engineering research due to the presence of various constraints, such as time, cost, ethics, privacy, security, and technical limitations in data acquisition. However, big data have been the focus for the past decade, small data and their challenges have received little attention, even though they are technically more severe in machine learning (ML) and deep learning (DL) studies. Overall, the small data challenge is often compounded by issues, such as data diversity, imputation, noise, imbalance, and high-dimensionality. Fortunately, the current big data era is characterized by technological breakthroughs in ML, DL, and artificial intelligence (AI), which enable data-driven scientific discovery, and many advanced ML and DL technologies developed for big data have inadvertently provided solutions for small data problems. As a result, significant progress has been made in ML and DL for small data challenges in the past decade. In this review, we summarize and analyze several emerging potential solutions to small data challenges in molecular science, including chemical and biological sciences. We review both basic machine learning algorithms, such as linear regression, logistic regression (LR), k-nearest neighbor (KNN), support vector machine (SVM), kernel learning (KL), random forest (RF), and gradient boosting trees (GBT), and more advanced techniques, including artificial neural network (ANN), convolutional neural network (CNN), U-Net, graph neural network (GNN), Generative Adversarial Network (GAN), long short-term memory (LSTM), autoencoder, transformer, transfer learning, active learning, graph-based semi-supervised learning, combining deep learning with traditional machine learning, and physical model-based data augmentation. We also briefly discuss the latest advances in these methods. Finally, we conclude the survey with a discussion of promising trends in small data challenges in molecular science.</abstract>
+      <publisher>American Chemical Society</publisher>
+      <periodical><full-title>Chemical Reviews</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Leem, Juyoung
+          </author>
+          <author>
+            Jiang, Yue
+          </author>
+          <author>
+            Robinson, Ashley
+          </author>
+          <author>
+            Xia, Yan
+          </author>
+          <author>
+            Zheng, Xiaolin
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Data-Driven Approach to Tailoring Mechanical Properties of a Soft Material</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>9</date>
+          </pub-dates>
+      </dates>
+      <volume>33</volume>
+      <issue>38</issue>
+      <electronic-resource-num>10.1002&#x2F;adfm.202304451</electronic-resource-num>
+      <abstract>Data-driven, machine learning (ML)-assisted approaches have been used to study structure-property relationships at the atomic scale, which have greatly accelerated the screening process and new material discovery. However, such approaches are not easily applicable to modulating material properties of a soft material in a laboratory with specific ingredients. Moreover, it is desirable to relate material properties directly to the experimental recipes. Herein, a data-driven approach to tailoring mechanical properties of a soft material is demonstrated using ML-assisted predictions of mechanical properties based on experimental synthetic recipes. Polyurethane (PU) elastomer is used as a model soft material to demonstrate the approach and experimentally varied mechanical properties of the PU elastomer by modulating the mixing ratio between components of the elastomer. Twenty-five experimental conditions are selected based on the design of experiment and use those data points to train a linear regression model. The resulting model takes desired mechanical properties as input and returns synthetic recipes of a soft material, which is subsequently validated by experiments. Lastly, the prediction accuracies of different machine learning algorithms is compared. It is believed that the approach is widely applicable to other material systems to establish experimental conditions and material property relationships for soft materials.</abstract>
+      <publisher>John Wiley and Sons Inc</publisher>
+      <periodical><full-title>Advanced Functional Materials</full-title></periodical>
+      <keywords>
+        <keyword>HTPB</keyword>
+        <keyword>data-driven approaches</keyword>
+        <keyword>materials designs</keyword>
+        <keyword>mechanical properties</keyword>
+        <keyword>soft materials</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Alesadi, Amirhadi
+          </author>
+          <author>
+            Cao, Zhiqiang
+          </author>
+          <author>
+            Li, Zhaofan
+          </author>
+          <author>
+            Zhang, Song
+          </author>
+          <author>
+            Zhao, Haoyu
+          </author>
+          <author>
+            Gu, Xiaodan
+          </author>
+          <author>
+            Xia, Wenjie
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Machine learning prediction of glass transition temperature of conjugated polymers from chemical structure</title>
+      </titles>
+      <dates>
+        <year>2022</year>
+          <pub-dates>
+            <date>6</date>
+          </pub-dates>
+      </dates>
+      <volume>3</volume>
+      <issue>6</issue>
+      <electronic-resource-num>10.1016&#x2F;j.xcrp.2022.100911</electronic-resource-num>
+      <abstract>Predicting the glass transition temperature (Tg) is of critical importance as it governs the thermomechanical performance of conjugated polymers (CPs). Here, we report a predictive modeling framework to predict Tg of CPs through the integration of machine learning (ML), molecular dynamics (MD) simulations, and experiments. With 154 Tg data collected, an ML model is developed by taking simplified “geometry” of six chemical building blocks as molecular features, where side-chain fraction, isolated rings, fused rings, and bridged rings features are identified as the dominant ones for Tg. MD simulations further unravel the fundamental roles of those chemical building blocks in dynamical heterogeneity and local mobility of CPs at a molecular level. The developed ML model is demonstrated for its capability of predicting Tg of several new high-performance solar cell materials to a good approximation. The established predictive framework facilitates the design and prediction of Tg of complex CPs, paving the way for addressing device stability issues that have hampered the field from developing stable organic electronics.</abstract>
+      <publisher>Cell Press</publisher>
+      <periodical><full-title>Cell Reports Physical Science</full-title></periodical>
+      <keywords>
+        <keyword>conjugated polymers</keyword>
+        <keyword>glass transition temperature</keyword>
+        <keyword>machine learning</keyword>
+        <keyword>molecular dynamics simulations</keyword>
+        <keyword>quasi-elastic neutron scattering</keyword>
+        <keyword>segmental dynamics</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Hassan, Abrar Ul
+          </author>
+          <author>
+            Shah, Syed Shoaib Ahmad
+          </author>
+          <author>
+            Abo-Dief, Hala M.
+          </author>
+          <author>
+            Naeem, Sumaira
+          </author>
+          <author>
+            Khan, Numan
+          </author>
+          <author>
+            Alzahrani, Eman
+          </author>
+          <author>
+            El-Bahy, Zeinhom M.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Polymer design using machine learning: A quest for high glass transition temperature</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>9</date>
+          </pub-dates>
+      </dates>
+      <volume>307</volume>
+      <electronic-resource-num>10.1016&#x2F;j.synthmet.2024.117659</electronic-resource-num>
+      <abstract>This research introduces an advanced data-centric framework tailored for polymer design. Developing a machine learning (ML) model utilizing molecular descriptors, the study aims to forecast the glass transition temperature of polymers. Employing the Retrosynthetically Interesting Chemical Substructures (BRICS) technique, a set of 10,000 novel polymers is synthesized, followed by predicting their glass transition temperature (Tg) values using a pre-existing ML model trained for this purpose. Gradient Boosting and Extra Trees models outperform K Neighbors and Random Forest (KNN) models in predicting performance parameters with R2 scores of 0.99 and 0.99, and lower root mean squared error values of 24 and 32 K, respectively. The selection of polymers is done on the basis of glass transition temperature, those with higher glass transition temperature are selected. We evaluate the ease of synthetic accessibilities of the selected polymers alongwith their structural variations which indicates a diverse range among them. Through the successful identification and enhancement of novel polymers, these innovative methods greatly enhance the possibilities of discovering superior materials tailored for cutting-edge applications.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Synthetic Metals</full-title></periodical>
+      <keywords>
+        <keyword>Descriptors, polymers</keyword>
+        <keyword>Glass transition temperature</keyword>
+        <keyword>Machine learning</keyword>
+        <keyword>Organic solar cells</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Malashin, Ivan Pavlovich
+          </author>
+          <author>
+            Tynchenko, Vadim Sergeevich
+          </author>
+          <author>
+            Nelyub, Vladimir Aleksandrovich
+          </author>
+          <author>
+            Borodulin, Aleksei Sergeevich
+          </author>
+          <author>
+            Gantimurov, Andrei Pavlovich
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Estimation and Prediction of the Polymers’ Physical Characteristics Using the Machine Learning Models</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>1</date>
+          </pub-dates>
+      </dates>
+      <volume>16</volume>
+      <issue>1</issue>
+      <electronic-resource-num>10.3390&#x2F;polym16010115</electronic-resource-num>
+      <abstract>This article investigates the utility of machine learning (ML) methods for predicting and analyzing the diverse physical characteristics of polymers. Leveraging a rich dataset of polymers’ characteristics, the study encompasses an extensive range of polymer properties, spanning compressive and tensile strength to thermal and electrical behaviors. Using various regression methods like Ensemble, Tree-based, Regularization, and Distance-based, the research undergoes thorough evaluation using the most common quality metrics. As a result of a series of experimental studies on the selection of effective model parameters, those that provide a high-quality solution to the stated problem were found. The best results were achieved by Random Forest with the highest (Formula presented.) scores of 0.71, 0.73, and 0.88 for glass transition, thermal decomposition, and melting temperatures, respectively. The outcomes are intricately compared, providing valuable insights into the efficiency of distinct ML approaches in predicting polymer properties. Unknown values for each characteristic were predicted, and a method validation was performed by training on the predicted values, comparing the results with the specified variance values of each characteristic. The research not only advances our comprehension of polymer physics but also contributes to informed model selection and optimization for materials science applications.</abstract>
+      <publisher>Multidisciplinary Digital Publishing Institute (MDPI)</publisher>
+      <periodical><full-title>Polymers</full-title></periodical>
+      <keywords>
+        <keyword>machine learning</keyword>
+        <keyword>physical characteristics analysis</keyword>
+        <keyword>polymers</keyword>
+        <keyword>predictive analytics</keyword>
+        <keyword>properties</keyword>
+        <keyword>random forest</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Kim, Chiho
+          </author>
+          <author>
+            Batra, Rohit
+          </author>
+          <author>
+            Chen, Lihua
+          </author>
+          <author>
+            Tran, Huan
+          </author>
+          <author>
+            Ramprasad, Rampi
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Polymer design using genetic algorithm and machine learning</title>
+      </titles>
+      <dates>
+        <year>2021</year>
+          <pub-dates>
+            <date>1</date>
+          </pub-dates>
+      </dates>
+      <volume>186</volume>
+      <electronic-resource-num>10.1016&#x2F;j.commatsci.2020.110067</electronic-resource-num>
+      <abstract>Data driven or machine learning (ML) based methods have been recently used in materials science to provide quick material property predictions. Although powerful and robust, these predictive models are still limited in terms of their applicability towards the design of materials with target property or performance objectives. Here, we employ a nature-mimicking optimization method, the genetic algorithm, in tandem with ML-based predictive models to design polymers that meet practically useful, but extreme, property criteria (i.e., glass transition temperature, Tg&gt;500 K and bandgap, Eg&gt;6 eV). Analogous to nature, the characteristic properties of a polymer are assumed to be determined by the constituting types and sequence of chemical building blocks (or fragments) in the monomer unit. Evolution of polymers by natural operations of crossover, mutation, and selection over 100 generations leads to creation of 132 new (as compared to 4 already known cases) and chemically unique polymers with high Tg and Eg. Chemical guidelines on what fragments make up polymers with extreme thermal and electrical performance metrics have been selected and revealed by the algorithm. The approach presented here is general and can be extended to design polymers with different property objectives.</abstract>
+      <publisher>Elsevier B.V.</publisher>
+      <periodical><full-title>Computational Materials Science</full-title></periodical>
+      <keywords>
+        <keyword>Bandgap</keyword>
+        <keyword>Genetic algorithm</keyword>
+        <keyword>Glass transition temperature</keyword>
+        <keyword>Machine learning</keyword>
+        <keyword>Polymer</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Laycock, Bronwyn G.
+          </author>
+          <author>
+            Chan, Clement M.
+          </author>
+          <author>
+            Halley, Peter J.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A review of computational approaches used in the modelling, design, and manufacturing of biodegradable and biobased polymers</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>10</date>
+          </pub-dates>
+      </dates>
+      <pages>101874</pages>
+      <electronic-resource-num>10.1016&#x2F;j.progpolymsci.2024.101874</electronic-resource-num>
+      <publisher>Elsevier BV</publisher>
+      <periodical><full-title>Progress in Polymer Science</full-title></periodical>
+      <keywords>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Pichon, Enzo
+          </author>
+          <author>
+            Verstappen, Joshua
+          </author>
+          <author>
+            Stepanova, Svetlana
+          </author>
+          <author>
+            Pich, Andrij
+          </author>
+          <author>
+            Bernaerts, Katrien V.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Bio-based non-isocyanate poly(urea)-PEG hybrids for VOC-free waterborne dispersions and fast UV-curable film application</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>8</date>
+          </pub-dates>
+      </dates>
+      <volume>217</volume>
+      <electronic-resource-num>10.1016&#x2F;j.eurpolymj.2024.113309</electronic-resource-num>
+      <abstract>Poly(urethane)-acrylate hybrids are often used to yield high-performing fast UV-curable coatings thanks to their highly reactive acrylate moieties. However, they are usually manufactured from toxic and petro-based isocyanate (e.g. isophorone diisocyanate, hexamethylene diisocyanate) monomers and are dispersed in water using toxic volatile neutralization agent (e.g. triethylamine). To tackle those issues, hydrophobic and bio-based non-isocyanate poly(urea) (NIPUrea) blocks have been synthesized and coupled with hydrophilic poly(ethylene glycol) diacrylate (PEGdA) via aza-Michael reaction to yield VOC-free non-ionic waterborne NIPUrea-acrylate dispersions. Those amphiphilic NIPUrea-PEG hybrids enabled the development of low particle-size waterborne dispersions for fast UV curable films (curing time &lt; 1 min) with high gel content (&gt;98 %) and tunable mechanical properties.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>European Polymer Journal</full-title></periodical>
+      <keywords>
+        <keyword>Amphiphilic copolymers</keyword>
+        <keyword>Bio-based</keyword>
+        <keyword>Non-isocyanate polyurea (NIPUrea)</keyword>
+        <keyword>UV curable</keyword>
+        <keyword>Waterborne dispersion</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Pichon, Enzo
+          </author>
+          <author>
+            De Smet, David
+          </author>
+          <author>
+            Rouster, Paul
+          </author>
+          <author>
+            Freulings, Kim
+          </author>
+          <author>
+            Pich, Andrij
+          </author>
+          <author>
+            Bernaerts, Katrien V.
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Bio-based non-isocyanate polyurethane(urea) waterborne dispersions for water resistant textile coatings</title>
+      </titles>
+      <dates>
+        <year>2023</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <volume>34</volume>
+      <electronic-resource-num>10.1016&#x2F;j.mtchem.2023.101822</electronic-resource-num>
+      <abstract>Currently, the resins used in industrial polyurethane coatings are made from petro-based polyols and isocyanate building blocks. In traditional coating formulations, polyurethane resins can be solubilized in solvents for their application on substrates, thus releasing possibly volatile organic compounds (VOCs) upon drying. To circumvent these issues, polyurethanes synthesized from non-isocyanate and bio-based building blocks are receiving more interest. However, only few references describe the development of waterborne non-isocyanate dispersions with a direct application. In this study, non-isocyanate polyurethane(urea)s of very high bio-based contents (&gt;80 wt%) and having controlled amount of reactive hydroxyl ends were synthesized via transcarbamoylation. The obtained resins were used as cationic waterborne dispersions in a sustainable coating system. The influence of the functionality and hydrophobicity of the neutralization agent used to protonate the non-isocyanate polyurethane(urea) backbones, as well as the dicarbamate monomer structures were assessed. It was found that the combination of monofunctional and hydrophilic DL-lactic acid neutralization agent (for electrostatic repulsion) led to stable dispersions with better properties (particle size and zeta potential) than the commercial waterborne polyurethane dispersion reference. Those dispersions were cross-linked through their reactive hydroxyl end groups with tetramethylol acetylene diurea into freestanding films and adhesive layers for textile coatings. The freestanding films exhibited high cross-linking efficiency (gel content &gt;90 %), low water uptake (down to 2 %) and high water and methyl ethyl ketone (MEK) resistance (≥200 rubs) as well as good mechanical properties (Young&#39;s modulus between 1.5 MPa and 3.1 MPa and elongation at break up to 300 %) to resist the deformation of the fabrics when applied on them. Finally, when used as an adhesive layer on textiles, good resistance to hydrolysis and heat aging were ensured by the coating system, thus potentially replacing isocyanate based adhesive layers.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Materials Today Chemistry</full-title></periodical>
+      <keywords>
+        <keyword>Bio-based</keyword>
+        <keyword>Coating</keyword>
+        <keyword>Non-isocyanate polyurethane</keyword>
+        <keyword>Water-based</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Comí, Marc
+          </author>
+          <author>
+            Lligadas, Gerard
+          </author>
+          <author>
+            Ronda, Juan C.
+          </author>
+          <author>
+            Galià, Marina
+          </author>
+          <author>
+            Cádiz, Virginia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Adaptive bio-based polyurethane elastomers engineered by ionic hydrogen bonding interactions</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+          <pub-dates>
+            <date>6</date>
+          </pub-dates>
+      </dates>
+      <volume>91</volume>
+      <pages>408-419</pages>
+      <electronic-resource-num>10.1016&#x2F;j.eurpolymj.2017.04.026</electronic-resource-num>
+      <abstract>The intrinsic responsiveness properties of non-covalent interactions are appealing for the preparation of soft polymer networks with unique adaptive properties. The synthesis of supramolecular polyurethane elastomers is achieved using post-synthetic non-covalent crosslinking approach based on ionic hydrogen bonding interactions. The ionic networks are formed between the tertiary amino groups of side chain functional castor oil-derived polyurethane and small-molecular biological acids such as sebacic acid, suberic acid, oxalic acid, and citric acid. The obtained polymers have some promising material properties concerning energy dissipation through stress, shape-regeneration property, as well as recycling&#x2F;reshaping and self-healing capabilities.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>European Polymer Journal</full-title></periodical>
+      <keywords>
+        <keyword>Non-covalent</keyword>
+        <keyword>Renewable resources</keyword>
+        <keyword>Sacrificial bonds</keyword>
+        <keyword>Self-healing</keyword>
+        <keyword>Supramolecular network</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Comí, Marc
+          </author>
+          <author>
+            Lligadas, Gerard
+          </author>
+          <author>
+            Ronda, Juan C.
+          </author>
+          <author>
+            Galià, Marina
+          </author>
+          <author>
+            Cádiz, Virginia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Synthesis of castor-oil based polyurethanes bearing alkene&#x2F;alkyne groups and subsequent thiol-ene&#x2F;yne post-modification</title>
+      </titles>
+      <dates>
+        <year>2016</year>
+          <pub-dates>
+            <date>10</date>
+          </pub-dates>
+      </dates>
+      <volume>103</volume>
+      <pages>163-170</pages>
+      <electronic-resource-num>10.1016&#x2F;j.polymer.2016.09.057</electronic-resource-num>
+      <abstract>An efficient route to obtain allyl- and propargyl-containing diols from 10-undecen-1-ol, and their polymerization with isophorone diisocyanate to produce alkene- and alkyne-functionalized polyurethanes (PUs) is described. The bio-based PUs have been further modified by thiol-ene&#x2F;yne coupling of thioglycerol into unsaturation to obtain a series of PUs with enhanced hydrophilicity. All the synthesized PUs were characterized by FTIR-ATR and NMR spectroscopy. As expected, the PUs were amorphous and DSC revealed glass transition temperatures in the range of 40 °C–5 °C for the PUs before and after modification. The PUs exhibited highly tunable thermal and mechanical properties. The mechanical properties of these bio-based polymers (E modulus from 774 MPa to 6 MPa and at break from 45% to 401%) make the suitable materials for a large range of applications.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Polymer</full-title></periodical>
+      <keywords>
+        <keyword>Allyl- and propargyl-containing diols</keyword>
+        <keyword>Functionalization</keyword>
+        <keyword>Polyurethanes</keyword>
+        <keyword>Thiol-ene&#x2F;yne coupling</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Comí, Marc
+          </author>
+          <author>
+            Fernández, Mercedes
+          </author>
+          <author>
+            Santamaría, Antxon
+          </author>
+          <author>
+            Lligadas, Gerard
+          </author>
+          <author>
+            Ronda, Juan C.
+          </author>
+          <author>
+            Galià, Marina
+          </author>
+          <author>
+            Cádiz, Virginia
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Carboxylic Acid Ionic Modification of Castor-Oil-Based Polyurethanes Bearing Amine Groups: Chemically Tunable Physical Properties and Recyclability</title>
+      </titles>
+      <dates>
+        <year>2017</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <volume>218</volume>
+      <issue>23</issue>
+      <electronic-resource-num>10.1002&#x2F;macp.201700379</electronic-resource-num>
+      <abstract>A family of supramolecular side-chain ionic polyurethanes (PUs) is synthesized by a simple method using polyurethanes with tertiary amines as pendant groups, and carboxylic acids. The resulting polyurethanes contain diethyl ammonium and carboxylate moieties that are bonded by a combination of ionic and hydrogen bonds. The self-assembling process is observed by Fourier-transform infrared spectroscopy-attenuated total reflection (FTIR-ATR) and nuclear magnetic resonance (NMR) spectroscopy. The synthesized polyurethanes are characterized by differential scanning calorimetry (DSC) and thermogravimetric analysis (TGA). Rheological, dielectric, and mechanical properties are investigated, and it is found that the tunability of the properties depends on the acid functionality and the chain length. Dynamic viscoelastic tests reveal a rapid and complete thermal reversibility, which opens the door to studying the recyclability of the samples.</abstract>
+      <publisher>Wiley-VCH Verlag</publisher>
+      <periodical><full-title>Macromolecular Chemistry and Physics</full-title></periodical>
+      <keywords>
+        <keyword>ionic postmodification</keyword>
+        <keyword>mechanical properties</keyword>
+        <keyword>rheology</keyword>
+        <keyword>supramolecular polyurethanes</keyword>
+        <keyword>thermal properties</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="Journal Article"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Brzoska, Joanna
+          </author>
+          <author>
+            Smorawska, Joanna
+          </author>
+          <author>
+            Głowińska, Ewa
+          </author>
+          <author>
+            Datta, Janusz
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>A green route for high-performance bio-based polyurethanes synthesized from modified bio-based isocyanates</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>12</date>
+          </pub-dates>
+      </dates>
+      <volume>222</volume>
+      <electronic-resource-num>10.1016&#x2F;j.indcrop.2024.119542</electronic-resource-num>
+      <abstract>The need for sustainability and a circular economy leads to the development of innovative greener materials and technologies. This paper is focused on a novel class of bio-based polyurethanes (PUs) synthesized with the use of bio-monomers including bio-based isocyanates. The novelty of this work is related to the usage of bio-based modified isocyanate via a two-step solvent-free synthesis of novel cast bio-based poly(ester-urethanes) and poly(ether-urethanes). The designed and prepared bio-based PUs were analysed in terms of their chemical structure, thermal stability, mechanical and thermomechanical properties. Fourier transform infrared spectroscopy confirmed the formation of urethane groups and allowed the calculation of the carbonyl index and the degree of phase separation. Differential scanning calorimetry and X-ray diffraction indicated the amorphous behavior of the obtained bio-based materials. It was established that not only the thermal stability but also the degradation steps depended on the structure of the hard segments and the phase separation between hard and soft segments. The modification of hard segments was also revealed in the results of thermomechanical and mechanical behavior of bio-PU which indicated a mixed phase structure.</abstract>
+      <publisher>Elsevier B.V.</publisher>
+      <periodical><full-title>Industrial Crops and Products</full-title></periodical>
+      <keywords>
+        <keyword>Blocked isocyanates</keyword>
+        <keyword>Climate change</keyword>
+        <keyword>Green chemistry, thermal characterization</keyword>
+        <keyword>Polyurethane</keyword>
+        <keyword>Sustainable development</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+    <record>
+      <ref-type name="generic"></ref-type>
+      <contributors>
+        <authors>
+          <author>
+            Delavarde, Aliénor
+          </author>
+          <author>
+            Savin, Gaelle
+          </author>
+          <author>
+            Derkenne, Paul
+          </author>
+          <author>
+            Boursier, Marine
+          </author>
+          <author>
+            Morales-Cerrada, Roberto
+          </author>
+          <author>
+            Nottelet, Benjamin
+          </author>
+          <author>
+            Pinaud, Julien
+          </author>
+          <author>
+            Caillol, Sylvain
+          </author>
+        </authors>
+        <secondary-authors>
+        </secondary-authors>
+      </contributors>
+      <titles>
+        <title>Sustainable polyurethanes: toward new cutting-edge opportunities</title>
+      </titles>
+      <dates>
+        <year>2024</year>
+          <pub-dates>
+            <date>4</date>
+          </pub-dates>
+      </dates>
+      <volume>151</volume>
+      <electronic-resource-num>10.1016&#x2F;j.progpolymsci.2024.101805</electronic-resource-num>
+      <abstract>Polyurethanes (PU) are ranked amongst the 6th most manufactured worldwide polymers and are widely used in a variety of applications due to the diversity of properties they offer. Nevertheless, PUs are raising questions around environmental, legislative, health, and recycling concerns. In this context, due to the high isocyanate toxicity, blocked isocyanates, waterborne PU systems, and non-isocyanate polyurethane (NIPU) were introduced to prevent isocyanate handling risks. Moreover, sustainable feedstocks stood out to synthetize greener PU. In particular, bio-based polyfunctional short alcohol and isocyanate compounds have emerged to design fully bio-based PU materials with targeted chemical and mechanical properties. Finally, the large amounts of PU that have been placed on the market are now leading to environmental issues regarding its accumulation in the environment. Several methods have thus been recently developed to facilitate their end-of-life management and recyclability. This review provides a complete overview on the most recent advances on PUs synthesis with focus on the replacement of toxic isocyanates and petroleum-based resources, the use of greener processes, and their recycling methods. After a quick summary on PUs history and worldwide situation, different bio-based alcohols and isocyanates introduced on academic and industrial sides, and the corresponding PU are outlined. Furthermore, different synthesis pathways to produce NIPUs are discussed. Finally, the enzymatic and chemical recycling of PUs are outlined.</abstract>
+      <publisher>Elsevier Ltd</publisher>
+      <periodical><full-title>Progress in Polymer Science</full-title></periodical>
+      <keywords>
+        <keyword>Bio-based</keyword>
+        <keyword>End-of-life management</keyword>
+        <keyword>Non-isocyanate polyurethane</keyword>
+        <keyword>Polyurethane</keyword>
+        <keyword>Sustainability</keyword>
+      </keywords>
+      <urls>
+        <related-urls>
+        </related-urls>
+      </urls>
+    </record>
+  </records>
+</xml>
