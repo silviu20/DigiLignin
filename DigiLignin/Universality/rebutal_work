@@ -1,0 +1,27 @@
+Good. Based on the manuscript style from Section 3.5 and the analysis results, here is the complete content:
+
+New subsection to insert as Section 3.6 (shift current 3.6–3.8 down by one)
+3.6 Applicability Domain Analysis
+
+To delineate the chemical space within which the stacking ensemble produces reliable predictions, a leverage-based applicability domain (AD) analysis was performed. Leverage values (hᵢ) were computed from the HAT matrix of the scaled training set, and standardised residuals (zᵢ = eᵢ/σ) were derived using the training residual standard deviation. The warning threshold was set at h* = 3(k + 1)/n = 0.173 (k = 5 features, n = 104 training samples), and a sample was considered reliable if it simultaneously satisfied hᵢ ≤ h* and |zᵢ| ≤ 3. The outcome is visualised in the Williams plot (Figure 8A). Of the training samples, 98.1% (102 of 104) fall within the AD, confirming that the model is internally well-calibrated. For the validation and test sets, 68.8% (11 of 16) and 62.5% (10 of 16) of samples lie within the AD, respectively (Figure 8B). Samples outside the AD are characterised by either atypically high leverage—reflecting structural dissimilarity from the training centroid—or by large standardised residuals, which is consistent with the scatter visible in Figure 7A. This finding contextualises the prediction errors discussed in Section 3.5: the model performs reliably within its defined chemical space, while formulations at the periphery of the training distribution carry increased prediction uncertainty.
+
+To confirm that the ensemble has captured genuine structure–property relationships rather than spurious correlations inherent to a small dataset, a permutation test was conducted. The Tg labels of the training set were randomly shuffled (1000 permutations), and the validation MAE was re-evaluated for each permutation while preserving the fitted base models. As shown in Figure S[X] (Supporting Information), the true validation MAE of 14.32 °C lies substantially below the fifth percentile of the permuted distribution (22.01 °C), corresponding to p < 0.001. This result provides statistical confirmation that the predictive performance of the stacking ensemble is not attributable to chance, offering additional evidence for its validity within the defined applicability domain.
+
+Plots to add — explicitly
+Add to main text:
+
+Figure 8 — two-panel figure combining the Williams plot and AD coverage chart (replace current Figure 8 label; shift existing KDE figure to Figure 9, then cascade the remaining figures).
+
+Panel (A): Williams plot — leverage hᵢ vs. standardised residual zᵢ
+Panel (B): AD coverage bar chart — % inside / outside AD for validation and test sets
+Add to Supporting Information:
+
+Figure S[X]: Permutation test histogram
+
+Figure Captions
+Figure 8.
+Applicability domain (AD) analysis of the stacking ensemble model. (A) Williams plot showing the leverage (hᵢ) versus standardised residual (zᵢ) for training (filled circles, n = 104), validation (filled diamonds, n = 16), and test (filled triangles, n = 16) samples. The vertical dashed line denotes the leverage warning threshold h* = 0.173 [h* = 3(k + 1)/n; k = 5, n = 104] and horizontal dashed lines indicate the ±3 reliability criterion for standardised residuals. The shaded region marks the applicability domain. (B) Percentage of validation and test samples classified as inside (blue) or outside (red) the AD.
+
+Figure S[X].
+Permutation test for the stacking ensemble. The histogram shows the distribution of validation MAE values obtained from 1000 random permutations of the training set Tg labels. The red vertical line marks the true validation MAE (14.32 °C) and the black dashed line the fifth percentile of the permuted distribution (22.01 °C). p < 0.001, indicating that model performance is statistically significant and not attributable to chance.
+

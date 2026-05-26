@@ -1,0 +1,74 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite the accompanying publication."
+title: "Reproducibility package: Glass transition temperature prediction in lignin polyurethanes using machine learning on small experimental dataset"
+type: dataset
+license: "MIT AND CC-BY-4.0"
+date-released: 2026-05-26
+keywords:
+  - lignin
+  - polyurethane
+  - machine learning
+  - small dataset
+  - glass transition temperature
+  - stacking ensemble
+contact:
+  - family-names: "Bernaerts"
+    given-names: "Katrien V."
+    email: "katrien.bernaerts@maastrichtuniversity.nl"
+    affiliation: "Maastricht University, AMIBM"
+authors:
+  - family-names: "Acaru"
+    given-names: "Silviu Florin"
+    affiliation: "Sustainable Polymer Synthesis Group, Aachen-Maastricht Institute for Biobased Materials (AMIBM), Faculty of Science and Engineering, Maastricht University, Brightlands Chemelot Campus, Urmonderbaan 22, 6167 RD Geleen, Netherlands"
+  - family-names: "Comí"
+    given-names: "Marc"
+    affiliation: "Sustainable Polymer Technologies Team, Flemish Institute for Technological Research (VITO N.V.), Mol, Belgium"
+  - family-names: "Falireas"
+    given-names: "Panagiotis"
+    affiliation: "Sustainable Polymer Technologies Team, Flemish Institute for Technological Research (VITO N.V.), Mol, Belgium"
+  - family-names: "Vanpoucke"
+    given-names: "Danny E. P."
+    affiliation: "Hasselt University, Institute for Materials Research (IUMAT), Quantum & Artificial inTelligence design Of Materials (QuATOMs), Martelarenlaan 42, B-3500 Hasselt, Belgium; imec, IUMAT, Wetenschapspark 1, B-3590 Diepenbeek, Belgium"
+  - family-names: "Vendamme"
+    given-names: "Richard"
+    affiliation: "Sustainable Polymer Technologies Team, Flemish Institute for Technological Research (VITO N.V.), Mol, Belgium"
+  - family-names: "Bernaerts"
+    given-names: "Katrien V."
+    affiliation: "Sustainable Polymer Synthesis Group, Aachen-Maastricht Institute for Biobased Materials (AMIBM), Faculty of Science and Engineering, Maastricht University, Brightlands Chemelot Campus, Urmonderbaan 22, 6167 RD Geleen, Netherlands"
+preferred-citation:
+  type: article
+  title: "Glass transition temperature prediction in lignin polyurethanes using machine learning on small experimental dataset"
+  authors:
+    - family-names: "Acaru"
+      given-names: "Silviu Florin"
+    - family-names: "Comí"
+      given-names: "Marc"
+    - family-names: "Falireas"
+      given-names: "Panagiotis"
+    - family-names: "Vanpoucke"
+      given-names: "Danny E. P."
+    - family-names: "Vendamme"
+      given-names: "Richard"
+    - family-names: "Bernaerts"
+      given-names: "Katrien V."
+  year: 2026
+  month: 5
+  journal: "Materials & Design"
+  publisher:
+    name: "Elsevier"
+  issn: "0264-1275"
+  doi: "10.1016/j.matdes.2026.116265"
+  url: "https://doi.org/10.1016/j.matdes.2026.116265"
+  identifiers:
+    - type: doi
+      value: "10.1016/j.matdes.2026.116265"
+    - type: other
+      value: "S0264127526008385"
+      description: "Elsevier PII"
+    - type: url
+      value: "https://www.sciencedirect.com/science/article/pii/S0264127526008385"
+      description: "ScienceDirect article page"
+  notes: >
+    Open Access (Creative Commons license).
+    Received 12 December 2025; revised 15 May 2026; accepted 19 May 2026;
+    available online 19 May 2026; Version of Record 22 May 2026.

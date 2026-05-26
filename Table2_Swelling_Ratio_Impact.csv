@@ -1,0 +1,4 @@
+Configuration,Features,n_estimators,Test R²,Test MAE (°C),Performance Change
+With Swelling Ratio,"['Lignin (wt%)', 'Co-polyol type (PTHF)', 'r', 'Copolyol (wt%)', 'Isocyonate type', 'Sratio(%)']",400,0.7249,11.015,Baseline
+Without Swelling Ratio,"['Lignin (wt%)', 'Co-polyol type (PTHF)', 'r', 'Copolyol (wt%)', 'Isocyonate type']",1000,0.6700,10.183,-7.6%
+Difference (Δ),Swelling Ratio removed,-,-0.0549,-0.832,-

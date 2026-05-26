@@ -1,0 +1,22 @@
+# Pinned to the versions used to produce the published results.
+# Tested on Python 3.10 / 3.11 on Windows 10/11.
+
+numpy==1.26.4
+pandas==2.2.2
+scipy==1.13.1
+scikit-learn==1.5.1
+joblib==1.4.2
+
+matplotlib==3.9.0
+seaborn==0.13.2
+plotly==5.22.0
+adjustText==1.1.1
+
+openpyxl==3.1.5         # read .xlsx
+chardet==5.2.0          # encoding sniff in Loading and preprocessing.py
+Pillow==10.4.0          # figure post-processing
+
+# Optional — only needed by Graphical abstract/svg_to_tiff_converter.py
+# Install separately if you want to rebuild the TIFF graphical abstract:
+# cairosvg==2.7.1
+# Wand==0.6.13          # also requires ImageMagick installed on the system

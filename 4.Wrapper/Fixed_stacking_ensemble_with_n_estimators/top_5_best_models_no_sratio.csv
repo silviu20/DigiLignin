@@ -1,0 +1,6 @@
+Rank,Feature Combination,Num Features,N_Estimators,MAE (°C),MAE CI,R²,R² CI,MSE
+1,Lignin (wt%) + Co-polyol type (PTHF) + r + Copolyol (wt%) + Isocyonate type,5,700,15.714126248610713,"[13.97, 17.46]",0.3365875050024272,"[0.174, 0.499]",468.17245458855297
+2,Lignin (wt%) + Co-polyol type (PTHF) + r + Copolyol (wt%) + Isocyonate type,5,1000,15.772276316353471,"[14.03, 17.52]",0.3281943203539709,"[0.168, 0.488]",473.75310396469087
+3,Lignin (wt%) + Co-polyol type (PTHF) + r + Copolyol (wt%) + Isocyonate type,5,900,15.782970987834224,"[14.05, 17.52]",0.328335846499186,"[0.170, 0.487]",473.6180386653558
+4,Lignin (wt%) + Co-polyol type (PTHF) + r + Copolyol (wt%) + Isocyonate type,5,800,15.799060914737955,"[14.10, 17.50]",0.3281218999213558,"[0.172, 0.485]",473.7294410458047
+5,Lignin (wt%) + Co-polyol type (PTHF) + r + Copolyol (wt%) + Isocyanate (wt%) + tin(II) octoate,6,1000,15.817715713777863,"[14.18, 17.46]",0.3457613275357454,"[0.206, 0.485]",462.0073100021744

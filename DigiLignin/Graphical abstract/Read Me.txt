@@ -1,0 +1,5 @@
+The Graphical abstract is built using an SVG (Scalable Vector Graphics) code.
+The xml file holding the code is "Graphical abstract 55mm by 50mm_xml"
+The xml file can be opened using an IDE such as Visual Studio Code. 
+Through the IDE the xml file can be saved into a SVG. 
+To convert the SVG into a tiff format use the python code: "Code to save svg to tiff".
