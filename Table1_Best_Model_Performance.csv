@@ -1,4 +1,0 @@
-Metric,Training,Validation,Test,Generalization Gap
-R²,0.9974,0.4318,0.6700,-0.3274
-MSE (°C²),1.88,440.08,246.66,244.79
-MAE (°C),0.91,14.10,10.18,9.28

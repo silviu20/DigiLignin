@@ -1,0 +1,6 @@
+Rank,Features,Num_Features,MAE_Validation,R2_Validation,Generalization_Gap,Base_Models,Meta_Model,Tree_Estimators,Regularization
+1,"ignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Sratio(%",5,15.498,0.353,0.114,"GBR, RF, SVR, Lasso, ElasticNet",Ridge (alpha=1.0),1000,alpha=0.1
+2,"ignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyanate (wt%), tin(II) octoate, Sratio(%",7,15.552,0.364,-0.275,"GBR, RF, SVR, Lasso, ElasticNet",Ridge (alpha=1.0),1000,alpha=0.1
+3,"ignin (wt%), Co-polyol type (PTHF), r, tin(II) octoate, Sratio(%",5,15.589,0.372,-0.487,"GBR, RF, SVR, Lasso, ElasticNet",Ridge (alpha=1.0),1000,alpha=0.1
+4,"ignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), Isocyonate type, Sratio(%",6,15.59,0.35,0.241,"GBR, RF, SVR, Lasso, ElasticNet",Ridge (alpha=1.0),1000,alpha=0.1
+5,"ignin (wt%), Co-polyol type (PTHF), r, Copolyol (wt%), tin(II) octoate, Sratio(%",6,15.601,0.349,-0.05,"GBR, RF, SVR, Lasso, ElasticNet",Ridge (alpha=1.0),1000,alpha=0.1

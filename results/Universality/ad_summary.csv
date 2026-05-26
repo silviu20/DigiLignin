@@ -1,0 +1,4 @@
+Set,n,n_inside,pct_inside,pct_outside
+Training,104,102,98.07692307692308,1.9230769230769231
+Validation,16,11,68.75,31.25
+Test,16,10,62.5,37.5

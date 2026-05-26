@@ -1,0 +1,4 @@
+Data Split,N Samples,Mean (°C),Std Dev (°C),Min (°C),Max (°C),Range (°C)
+Training,104,45.04,27.00,-16.61,100.20,116.81
+Validation,16,40.43,28.74,-17.74,76.90,94.64
+Test,16,41.26,28.24,-16.74,77.37,94.11

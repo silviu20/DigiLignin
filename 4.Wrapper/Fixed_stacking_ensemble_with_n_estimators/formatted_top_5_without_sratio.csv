@@ -1,6 +1,0 @@
-Model,R2,MSE,MAE,Number of base estimators in tree-base models,Features
-Stacking Ensemble,0.337,468.17,15.714,700,Lignin (wt%) + Co-polyol type (PTHF) + Ratio + Co-polyol (wt%) + Isocyanate type
-Stacking Ensemble,0.328,473.75,15.772,1000,Lignin (wt%) + Co-polyol type (PTHF) + Ratio + Co-polyol (wt%) + Isocyanate type
-Stacking Ensemble,0.328,473.62,15.783,900,Lignin (wt%) + Co-polyol type (PTHF) + Ratio + Co-polyol (wt%) + Isocyanate type
-Stacking Ensemble,0.328,473.73,15.799,800,Lignin (wt%) + Co-polyol type (PTHF) + Ratio + Co-polyol (wt%) + Isocyanate type
-Stacking Ensemble,0.346,462.01,15.818,1000,Lignin (wt%) + Co-polyol type (PTHF) + Ratio + Co-polyol (wt%) + Isocyanate (wt%) + Tin(II) octoate
