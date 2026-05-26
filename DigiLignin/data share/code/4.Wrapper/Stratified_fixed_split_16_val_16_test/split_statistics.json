@@ -1,0 +1,17 @@
+{
+    "train_size": 104,
+    "val_size": 16,
+    "test_size": 16,
+    "train_target_mean": 45.04038461538461,
+    "train_target_std": 27.00481725897142,
+    "train_target_min": -16.61,
+    "train_target_max": 100.2,
+    "val_target_mean": 40.42875,
+    "val_target_std": 28.743244510667196,
+    "val_target_min": -17.74,
+    "val_target_max": 76.9,
+    "test_target_mean": 41.258125,
+    "test_target_std": 28.23752425851105,
+    "test_target_min": -16.74,
+    "test_target_max": 77.37
+}
